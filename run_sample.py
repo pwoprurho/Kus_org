@@ -1,0 +1,1 @@
+#!/usr/bin/env python3\nimport subprocess, sys\nret = subprocess.call([sys.executable, 'generate_kusmus_data_sprint_v5.py'])\nsys.exit(ret)\n
