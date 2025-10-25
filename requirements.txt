@@ -1,2 +1,4 @@
+python-genai
 python-dotenv
 pandas
+datasets
