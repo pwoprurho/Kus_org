@@ -1,4 +1,7 @@
-python-genai
+# requirements.txt
+# Dependencies for the Kusmus AI Data Generator & Downloader
+
+google-generativeai
 python-dotenv
-pandas
 datasets
+huggingface_hub
