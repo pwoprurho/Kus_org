@@ -9,6 +9,7 @@ from pathlib import Path
 from dotenv import load_dotenv
 
 try:
+    # Attempt to import necessary types from google.generativeai
     from google.generativeai.types import HarmCategory, HarmBlockThreshold
 except ImportError:
     print("❌ Missing dependency: Please install with `pip install google-generativeai`")
@@ -41,16 +42,23 @@ SYSTEM_PROMPT_FILE = BASE_DIR / "system_prompt.txt"
 SCENARIOS_FILE = BASE_DIR / "scenarios.json" # Using JSON spec file
 
 # Load System Prompt
+SYSTEM_PROMPT = "" # Initialize
 try:
     print(f"📜 Loading system prompt from: {SYSTEM_PROMPT_FILE}")
     with open(SYSTEM_PROMPT_FILE, "r", encoding="utf-8") as f:
         SYSTEM_PROMPT = f.read()
+    if not SYSTEM_PROMPT.strip():
+        raise ValueError("System prompt file is empty.")
     print("📜 System prompt loaded successfully.")
+except FileNotFoundError:
+    print(f"❌ FATAL: System prompt file not found at '{SYSTEM_PROMPT_FILE}'")
+    sys.exit(1)
 except Exception as e:
     print(f"❌ FATAL: Error loading system prompt file '{SYSTEM_PROMPT_FILE}': {e}")
     sys.exit(1)
 
 # Load Scenarios
+SCENARIOS = [] # Initialize
 try:
     print(f"📚 Loading scenarios from: {SCENARIOS_FILE}")
     with open(SCENARIOS_FILE, "r", encoding="utf-8") as f:
@@ -58,6 +66,12 @@ try:
         if not isinstance(SCENARIOS, list) or not SCENARIOS:
              raise ValueError("Scenarios file is empty or not a valid JSON list.")
     print(f"📚 {len(SCENARIOS)} scenarios loaded successfully.")
+except FileNotFoundError:
+     print(f"❌ FATAL: Scenarios file not found at '{SCENARIOS_FILE}'")
+     sys.exit(1)
+except json.JSONDecodeError as e:
+    print(f"❌ FATAL: Error decoding scenarios JSON file '{SCENARIOS_FILE}': {e}")
+    sys.exit(1)
 except Exception as e:
     print(f"❌ FATAL: Error loading or parsing scenarios file '{SCENARIOS_FILE}': {e}")
     sys.exit(1)
@@ -72,12 +86,9 @@ SAFETY_SETTINGS = {
 }
 print("🛡️ Safety settings configured.")
 
-# --- Validation ---
-if not SYSTEM_PROMPT.strip():
-    print("❌ FATAL: Loaded system prompt appears to be empty.")
-    sys.exit(1)
+# --- Final Validation ---
 if not all(isinstance(s, dict) and s.get("id") and s.get("prompt") for s in SCENARIOS):
-     print("❌ FATAL: Loaded scenarios list seems invalid (missing 'id' or 'prompt' in some items).")
+     print("❌ FATAL: Loaded scenarios list seems invalid (missing 'id' or 'prompt' in some items). Check scenarios.json.")
      sys.exit(1)
 
-print("✅ Configuration loaded.")
+print("✅ Configuration loaded and validated.")
