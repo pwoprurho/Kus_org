@@ -1,7 +1,8 @@
 # requirements.txt
-# Dependencies for the Kusmus AI Data Generator & Downloader
+# Dependencies for the Kusmus AI Modular Data Generator & Downloader
+# Pinning google-generativeai to version 0.7.1 for compatibility
 
-google-generativeai
+google-generativeai==0.7.1
 python-dotenv
 datasets
 huggingface_hub
