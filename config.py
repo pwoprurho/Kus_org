@@ -8,12 +8,18 @@ import re
 from pathlib import Path
 from dotenv import load_dotenv
 
+# --- Dependency Check ---
 try:
-    # Attempt to import necessary types from google.generativeai
-    from google.generativeai.types import HarmCategory, HarmBlockThreshold
+    from google import generativeai as genai # Correct import
+    from google.generativeai.types import HarmCategory, HarmBlockThreshold # Correct import path
+    print("✅ google-generativeai library and safety types imported successfully.")
 except ImportError:
-    print("❌ Missing dependency: Please install with `pip install google-generativeai`")
+    print("❌ Missing dependency: Please install/upgrade `pip install --upgrade google-generativeai`")
     sys.exit(1)
+except Exception as e:
+    print(f"❌ Unexpected error importing google.generativeai: {e}")
+    sys.exit(1)
+
 
 # --- Base Paths ---
 BASE_DIR = Path(__file__).resolve().parent
@@ -30,8 +36,18 @@ if not API_KEY:
     sys.exit(1)
 print("🔑 API Key loaded successfully.")
 
+# --- Configure Gemini Client ---
+# Explicitly pass the API key here
+try:
+    genai.configure(api_key=API_KEY)
+    print("✅ Gemini client configured with provided API key.")
+except Exception as e:
+    print(f"❌ FATAL: Failed to configure Gemini client with API key: {e}")
+    sys.exit(1)
+
+
 # --- Model & Generation Settings ---
-GEMINI_MODEL_NAME = os.getenv("MODEL_NAME", "gemini-1.5-flash")
+GEMINI_MODEL_NAME = os.getenv("MODEL_NAME", "gemini-1.5-flash-latest") # Use -latest alias
 # <<<<<<<<<<< UPDATED TO 40 PER SCENARIO >>>>>>>>>>>
 NUM_PER_SCENARIO = int(os.getenv("TRANSCRIPTS_PER_SCENARIO", "40")) # Target 40
 print(f"🤖 Using Gemini Model: {GEMINI_MODEL_NAME}")
@@ -78,6 +94,7 @@ except Exception as e:
 
 
 # --- Safety Settings ---
+# Uses the correctly imported enums
 SAFETY_SETTINGS = {
     HarmCategory.HARM_CATEGORY_HATE_SPEECH: HarmBlockThreshold.BLOCK_NONE,
     HarmCategory.HARM_CATEGORY_HARASSMENT: HarmBlockThreshold.BLOCK_NONE,
