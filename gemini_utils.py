@@ -124,16 +124,18 @@ def analyze_transcript(client: genai.GenerativeModel, scenario_prompt: str) -> d
     # Combine the loaded system prompt with the specific scenario prompt
     full_prompt = f"{SYSTEM_PROMPT}\n\n---\n\n**NOW, GENERATE FOR THIS SPECIFIC SCENARIO:**\n{scenario_prompt}"
 
+    # --- Define generation parameters as a dictionary ---
+    generation_config_dict = {
+        "temperature": 0.8,
+        "max_output_tokens": 2048 # Ensure enough space
+    }
+
     for attempt in range(retries):
         try:
-            generation_config = genai.types.GenerationConfig(
-                temperature=0.8, # Balance creativity and consistency
-                max_output_tokens=2048 # Ensure enough space
-            )
-            # --- USE FULL PROMPT HERE ---
+            # --- Pass config dictionary directly to generate_content ---
             response = client.generate_content(
                 full_prompt, # Pass the combined prompt
-                generation_config=generation_config
+                generation_config=generation_config_dict # Pass the dict here
             )
 
             # --- Robust Safety/Block Check ---
@@ -170,7 +172,7 @@ def analyze_transcript(client: genai.GenerativeModel, scenario_prompt: str) -> d
                 # 4. Extract Text Content (if finished normally)
                 content = getattr(candidate, 'content', None)
                 parts = getattr(content, 'parts', [])
-                # --- THIS IS THE KEY FIX ---
+                # --- THIS IS THE KEY FIX for accessing text ---
                 if parts and hasattr(parts[0], 'text'):
                     response_text = parts[0].text # Primary way to get text
                 elif hasattr(response, 'text'): # Fallback just in case
@@ -211,59 +213,4 @@ def analyze_transcript(client: genai.GenerativeModel, scenario_prompt: str) -> d
 
             if wait_time > 0: time.sleep(wait_time) # Sleep only if retrying
 
-    print("   All retry attempts failed after loop completion."); return None            generation_config = genai.types.GenerationConfig(
-                temperature=0.8,
-                max_output_tokens=2048
-            )
-            # --- USE FULL PROMPT HERE ---
-            response = client.generate_content(
-                full_prompt, # Pass the combined prompt
-                generation_config=generation_config
-            )
-            # ---
-
-            # --- Safety/Block Check (remains the same) ---
-            finish_reason = None
-            safety_blocked = False
-            candidate = response.candidates[0] if hasattr(response, 'candidates') and response.candidates else None
-
-            if candidate:
-                safety_ratings = getattr(candidate, 'safety_ratings', [])
-                if any(rating.category != HarmCategory.HARM_CATEGORY_UNKNOWN and rating.probability >= HarmBlockThreshold.BLOCK_MEDIUM_AND_ABOVE for rating in safety_ratings):
-                    safety_blocked=True; print(f"⚠️ SAFETY Block Detected (Rating). Prompt: {scenario_prompt[:100]}..."); return None
-                finish_reason = getattr(candidate, 'finish_reason', None)
-
-            if not safety_blocked and finish_reason != 1:
-                print(f"⚠️ Generation Finished Unexpectedly (Reason: {finish_reason}). Prompt: {scenario_prompt[:100]}...");
-                if finish_reason == 3: print("   Safety Block explicitly indicated.")
-                elif finish_reason == 2: print("   Max Tokens Reached. Output truncated?")
-                return None
-
-            content = getattr(candidate, 'content', None)
-            parts = getattr(content, 'parts', [])
-            response_text = parts[0].text if parts and hasattr(parts[0], 'text') else getattr(response,'text', None) # Fallback
-
-            if not response_text:
-                print(f"⚠️ Invalid Response Structure (No text content). Prompt: {scenario_prompt[:100]}...");
-                return None
-
-            # --- Parse Output (remains the same) ---
-            parsed = parse_gemini_output(response_text)
-            if parsed: return parsed
-            else: print("   Parsing failed.");
-
-        # --- Error Handling (remains the same) ---
-        except Exception as e:
-            error_str = str(e); wait_time = 0
-            if "Resource has been exhausted" in error_str or "429" in error_str or "rate limit" in error_str.lower():
-                wait_time = 20 * (attempt + 1); print(f"🚦 Rate Limit (Attempt {attempt + 1}/{retries}). Retrying in {wait_time}s...")
-            elif "internal server error" in error_str.lower() or "500" in error_str or "service unavailable" in error_str.lower():
-                 wait_time = 10 * (attempt + 1); print(f"🔧 API Internal/Unavailable Error (Attempt {attempt + 1}/{retries}). Retrying in {wait_time}s...")
-            else:
-                print(f"🛑 API Error (Attempt {attempt + 1}/{retries}): {e}");
-                if attempt < retries - 1: wait_time = 7 * (attempt + 1); print(f"   Retrying in {wait_time}s...")
-                else: print("   Max retries reached."); return None
-
-            if wait_time > 0: time.sleep(wait_time)
-
-    print("   All retry attempts failed."); return None
+    print("   All retry attempts failed after loop completion."); return None
