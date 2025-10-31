@@ -1,0 +1,177 @@
+[
+  {
+    "id": "IAS-Transport-Booking-English",
+    "industry": "Transportation",
+    "language": "Standard Nigerian English",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Standard Nigerian English. A customer calls a bus company (e.g., ABC Transport) to book an interstate ticket. The agent must be polite, check routes (Lagos to Abuja), availability, confirm price, and complete the booking (Booking Ref: ABC-XXXX). Include recording consent."
+  },
+  {
+    "id": "IAS-Transport-Booking-Pidgin",
+    "industry": "Transportation",
+    "language": "Nigerian Pidgin",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Nigerian Pidgin. A customer calls bus company to book ticket for interstate. The agent must be polite, check route (Lagos to Abuja), if space dey, confirm price, and book am (Booking Ref: ABC-XXXX). Include recording consent."
+  },
+  {
+    "id": "IAS-Transport-Booking-Yoruba",
+    "industry": "Transportation",
+    "language": "Yoruba (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Yoruba (with diacritics). A customer calls a bus company to book an interstate ticket. The agent must be polite, check routes (Lagos to Abuja), availability, confirm price, and complete the booking (Booking Ref: ABC-XXXX). Include recording consent."
+  },
+  {
+    "id": "IAS-Transport-Booking-Igbo",
+    "industry": "Transportation",
+    "language": "Igbo (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Igbo (with diacritics). A customer calls a bus company to book an interstate ticket. The agent must be polite, check routes (Lagos to Abuja), availability, confirm price, and complete the booking (Booking Ref: ABC-XXXX). Include recording consent."
+  },
+  {
+    "id": "IAS-Transport-Booking-Hausa",
+    "industry": "Transportation",
+    "language": "Hausa (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Hausa (with diacritics). A customer calls a bus company to book an interstate ticket. The agent must be polite, check routes (Lagos to Abuja), availability, confirm price, and complete the booking (Booking Ref: ABC-XXXX). Include recording consent."
+  },
+  {
+    "id": "ICC-Transport-LostItem-English",
+    "industry": "Transportation",
+    "language": "Standard Nigerian English",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Standard Nigerian English. A passenger calls a ride-hailing service (e.g., Bolt), distressed about a lost laptop in a car. The agent must be empathetic, verify identity (phone + last trip), log the lost item report, and explain the process for retrieval. Include recording consent."
+  },
+  {
+    "id": "ICC-Transport-LostItem-Pidgin",
+    "industry": "Transportation",
+    "language": "Nigerian Pidgin",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Nigerian Pidgin. A passenger calls ride-hailing service, e dey panic say e forget laptop for car. The agent must be calm, verify identity (phone + last trip), log the report, and tell am how dem go find am. Include recording consent."
+  },
+  {
+    "id": "ICC-Transport-LostItem-Yoruba",
+    "industry": "Transportation",
+    "language": "Yoruba (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Yoruba (with diacritics). A passenger calls a ride-hailing service, distressed about a lost laptop in a car. The agent must be empathetic, verify identity (phone + last trip), log the lost item report, and explain the process. Include recording consent."
+  },
+  {
+    "id": "ICC-Transport-LostItem-Igbo",
+    "industry": "Transportation",
+    "language": "Igbo (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Igbo (with diacritics). A passenger calls a ride-hailing service, distressed about a lost laptop in a car. The agent must be empathetic, verify identity (phone + last trip), log the lost item report, and explain the process. Include recording consent."
+  },
+  {
+    "id": "ICC-Transport-LostItem-Hausa",
+    "industry": "Transportation",
+    "language": "Hausa (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Hausa (with diacritics). A passenger calls a ride-hailing service, distressed about a lost laptop in a car. The agent must be empathetic, verify identity (phone + last trip), log the lost item report, and explain the process. Include recording consent."
+  },
+  {
+    "id": "ICC-Transport-FareDispute-English",
+    "industry": "Transportation",
+    "language": "Standard Nigerian English",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Standard Nigerian English. A passenger calls a ride-hailing service to complain about being overcharged for a trip. The agent must be polite, verify identity (phone + trip details), review the fare, and issue a refund/credit (Ref ID: F-XXXX). Include recording consent."
+  },
+  {
+    "id": "ICC-Transport-FareDispute-Pidgin",
+    "industry": "Transportation",
+    "language": "Nigerian Pidgin",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Nigerian Pidgin. Passenger call say driver overcharge am for trip. The agent must be polite, verify identity (phone + trip), check the money, and give am refund/credit (Ref ID: F-XXXX). Include recording consent."
+  },
+  {
+    "id": "ICC-Transport-FareDispute-Yoruba",
+    "industry": "Transportation",
+    "language": "Yoruba (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Yoruba (with diacritics). A passenger calls a ride-hailing service to complain about being overcharged for a trip. The agent must be polite, verify identity (phone + trip details), review the fare, and issue a refund/credit (Ref ID: F-XXXX). Include recording consent."
+  },
+  {
+    "id": "ICC-Transport-FareDispute-Igbo",
+    "industry": "Transportation",
+    "language": "Igbo (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Igbo (with diacritics). A passenger calls a ride-hailing service to complain about being overcharged for a trip. The agent must be polite, verify identity (phone + trip details), review the fare, and issue a refund/credit (Ref ID: F-XXXX). Include recording consent."
+  },
+  {
+    "id": "ICC-Transport-FareDispute-Hausa",
+    "industry": "Transportation",
+    "language": "Hausa (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Hausa (with diacritics). A passenger calls a ride-hailing service to complain about being overcharged for a trip. The agent must be polite, verify identity (phone + trip details), review the fare, and issue a refund/credit (Ref ID: F-XXXX). Include recording consent."
+  },
+  {
+    "id": "ICC-Transport-Safety-English",
+    "industry": "Transportation",
+    "language": "Standard Nigerian English",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Standard Nigerian English. A passenger calls a ride-hailing service, sounding shaken. They report the driver was reckless and they felt unsafe. The agent must be extremely empathetic, prioritize safety, verify the trip, assure the user it's being escalated, and log a high-priority safety complaint (Case ID: SFT-XXXX). Include recording consent."
+  },
+  {
+    "id": "ICC-Transport-Safety-Pidgin",
+    "industry": "Transportation",
+    "language": "Nigerian Pidgin",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Nigerian Pidgin. Passenger call, e dey fear. E report say driver dey drive anyhow and e fear. The agent must show concern, verify the trip, assure am say dem go act, and log safety complaint (Case ID: SFT-XXXX). Include recording consent."
+  },
+  {
+    "id": "ICC-Transport-Safety-Yoruba",
+    "industry": "Transportation",
+    "language": "Yoruba (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Yoruba (with diacritics). A passenger calls, sounding shaken, reporting a reckless driver. The agent must be extremely empathetic, prioritize safety, verify the trip, assure escalation, and log a high-priority safety complaint (Case ID: SFT-XXXX). Include recording consent."
+  },
+  {
+    "id": "ICC-Transport-Safety-Igbo",
+    "industry": "Transportation",
+    "language": "Igbo (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Igbo (with diacritics). A passenger calls, sounding shaken, reporting a reckless driver. The agent must be extremely empathetic, prioritize safety, verify the trip, assure escalation, and log a high-priority safety complaint (Case ID: SFT-XXXX). Include recording consent."
+  },
+  {
+    "id": "ICC-Transport-Safety-Hausa",
+    "industry": "Transportation",
+    "language": "Hausa (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Hausa (with diacritics). A passenger calls, sounding shaken, reporting a reckless driver. The agent must be extremely empathetic, prioritize safety, verify the trip, assure escalation, and log a high-priority safety complaint (Case ID: SFT-XXXX). Include recording consent."
+  },
+  {
+    "id": "ISG-Transport-Suggestion-English",
+    "industry": "Transportation",
+    "language": "Standard Nigerian English",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Standard Nigerian English. A frequent passenger calls a bus company to suggest they add a new, underserved route or a new bus stop. The agent must thank them for their loyalty and log the detailed suggestion for the operations and route-planning team. Include recording consent."
+  },
+  {
+    "id": "ISG-Transport-Suggestion-Pidgin",
+    "industry": "Transportation",
+    "language": "Nigerian Pidgin",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Nigerian Pidgin. A passenger calls bus company to suggest 'make una add new route for Iju area'. The agent must thank them and log the suggestion for the operations team. Include recording consent."
+  },
+  {
+    "id": "ISG-Transport-Suggestion-Yoruba",
+    "industry": "Transportation",
+    "language": "Yoruba (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Yoruba (with diacritics). A frequent passenger calls a bus company to suggest 'Kí ẹ ṣí ọ̀nà tuntun sí agbègbè wa'. The agent must thank them and log the suggestion for the operations team. Include recording consent."
+  },
+  {
+    "id": "ISG-Transport-Suggestion-Igbo",
+    "industry": "Transportation",
+    "language": "Igbo (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Igbo (with diacritics). A frequent passenger calls a bus company to suggest 'Biko, mepeenụ ụzọ ọhụrụ na mpaghara anyị'. The agent must thank them and log the suggestion for the operations team. Include recording consent."
+  },
+  {
+    "id": "ISG-Transport-Suggestion-Hausa",
+    "industry": "Transportation",
+    "language": "Hausa (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Hausa (with diacritics). A frequent passenger calls a bus company to suggest 'Don Allah, ku buɗe sabuwar hanya zuwa yankinmu'. The agent must thank them and log the suggestion for the operations team. Include recording consent."
+  }
+]
