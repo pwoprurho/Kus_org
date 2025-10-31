@@ -1,0 +1,107 @@
+[
+  {
+    "id": "IEN-Education-Enquiry-English",
+    "industry": "Education",
+    "language": "Standard Nigerian English",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Standard Nigerian English. A prospective student (candidate) calls a university's admission office to ask if they are 'selling forms' (i.e., if the application portal is open) for the upcoming academic session. The agent must be polite, provide the correct status (e.g., 'Yes, the portal is open until...') or ('No, not yet, please check our website...'), and provide the official website URL. Include recording consent."
+  },
+  {
+    "id": "IEN-Education-Enquiry-Pidgin",
+    "industry": "Education",
+    "language": "Nigerian Pidgin",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Nigerian Pidgin. A candidate calls a university to ask if dem dey 'sell forms' for admission. The agent must be polite, provide the correct status ('Yes, portal open...') and the website. Include recording consent."
+  },
+  {
+    "id": "IEN-Education-Enquiry-Yoruba",
+    "industry": "Education",
+    "language": "Yoruba (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Yoruba (with diacritics). A prospective student calls a university to ask if 'wọ́n ń ta fọ́ọ̀mù' for admission. The agent must be polite, provide the correct status and the website. Include recording consent."
+  },
+  {
+    "id": "IEN-Education-Enquiry-Igbo",
+    "industry": "Education",
+    "language": "Igbo (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Igbo (with diacritics). A prospective student calls a university to ask if 'ha na-ere fọm' for admission. The agent must be polite, provide the correct status and the website. Include recording consent."
+  },
+  {
+    "id": "IEN-Education-Enquiry-Hausa",
+    "industry": "Education",
+    "language": "Hausa (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Hausa (with diacritics). A prospective student calls a university to ask if 'ana sayar da fom' for admission. The agent must be polite, provide the correct status and the website. Include recording consent."
+  },
+  {
+    "id": "ICC-Education-Complaint-English",
+    "industry": "Education",
+    "language": "Standard Nigerian English",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Standard Nigerian English. A current student calls the student services line, frustrated because a course they registered for is not appearing on their online portal, and the add/drop deadline is near. The agent must be empathetic, verify the student's identity (Student ID + DOB), log the complaint (Case ID: EDU-XXXX), and assure them it will be escalated to the IT/registry department. Include recording consent."
+  },
+  {
+    "id": "ICC-Education-Complaint-Pidgin",
+    "industry": "Education",
+    "language": "Nigerian Pidgin",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Nigerian Pidgin. A student calls, vexed because a course 'no dey show for my portal' and deadline dey near. The agent must be empathetic, verify identity (Student ID + DOB), log the complaint (Case ID: EDU-XXXX), and escalate to IT. Include recording consent."
+  },
+  {
+    "id": "ICC-Education-Complaint-Yoruba",
+    "industry": "Education",
+    "language": "Yoruba (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Yoruba (with diacritics). A current student calls, frustrated because a course 'kò hàn lórí portal mi' and deadline is near. The agent must be empathetic, verify identity (Student ID + DOB), log the complaint (Case ID: EDU-XXXX), and escalate to IT. Include recording consent."
+  },
+  {
+    "id": "ICC-Education-Complaint-Igbo",
+    "industry": "Education",
+    "language": "Igbo (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Igbo (with diacritics). A current student calls, frustrated because a course 'anaghị egosi na portal m' and deadline is near. The agent must be empathetic, verify identity (Student ID + DOB), log the complaint (Case ID: EDU-XXXX), and escalate to IT. Include recording consent."
+  },
+  {
+    "id": "ICC-Education-Complaint-Hausa",
+    "industry": "Education",
+    "language": "Hausa (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Hausa (with diacritics). A current student calls, frustrated because a course 'ba ya bayyana a portal ɗina' and deadline is near. The agent must be empathetic, verify identity (Student ID + DOB), log the complaint (Case ID: EDU-XXXX), and escalate to IT. Include recording consent."
+  },
+  {
+    "id": "ISG-Education-Suggestion-English",
+    "industry": "Education",
+    "language": "Standard Nigerian English",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Standard Nigerian English. A student calls the university's non-emergency line to suggest an improvement, such as extending the library's opening hours during exam periods. The agent must be receptive, thank the student for the feedback, and confirm it will be passed to the library committee or relevant administrative body for review. Include recording consent."
+  },
+  {
+    "id": "ISG-Education-Suggestion-Pidgin",
+    "industry": "Education",
+    "language": "Nigerian Pidgin",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Nigerian Pidgin. A student calls to suggest 'make una add more time for library during exams'. The agent must be receptive, thank them, and pass the feedback to the library committee. Include recording consent."
+  },
+  {
+    "id": "ISG-Education-Suggestion-Yoruba",
+    "industry": "Education",
+    "language": "Yoruba (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Yoruba (with diacritics). A student calls to suggest 'Kí ẹ fi kún àkókò tí ilé-ìkàwé máa ń ṣí sílẹ̀ nígbà ìdánwò'. The agent must be receptive, thank them, and pass the feedback to the library committee. Include recording consent."
+  },
+  {
+    "id": "ISG-Education-Suggestion-Igbo",
+    "industry": "Education",
+    "language": "Igbo (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Igbo (with diacritics). A student calls to suggest 'Ka unu gbatịkwuo oge ọbá akwụkwọ na-emeghe n'oge ule'. The agent must be receptive, thank them, and pass the feedback to the library committee. Include recording consent."
+  },
+  {
+    "id": "ISG-Education-Suggestion-Hausa",
+    "industry": "Education",
+    "language": "Hausa (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Hausa (with diacritics). A student calls to suggest 'Ya kamata a ƙara lokacin buɗe ɗakin karatu a lokacin jarrabawa'. The agent must be receptive, thank them, and pass the feedback to the library committee. Include recording consent."
+  }
+]
