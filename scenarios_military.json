@@ -1,0 +1,142 @@
+[
+  {
+    "id": "IPR-Military-InfoRequest-Recruit-English",
+    "industry": "PublicSafety-Military",
+    "language": "Standard Nigerian English",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Standard Nigerian English. A young person calls the military public relations line to ask about the next army recruitment. The agent must be professional, provide public information (e.g., 'check newspapers' or website), and be encouraging. Include recording consent."
+  },
+  {
+    "id": "IPR-Military-InfoRequest-Recruit-Pidgin",
+    "industry": "PublicSafety-Military",
+    "language": "Nigerian Pidgin",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Nigerian Pidgin. Young person call military PR line, e dey ask about army recruitment ('When una go start to dey pick new soldiers?'). The agent must be professional, provide public info, and be encouraging. Include recording consent."
+  },
+  {
+    "id": "IPR-Military-InfoRequest-Recruit-Yoruba",
+    "industry": "PublicSafety-Military",
+    "language": "Yoruba (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Yoruba (with diacritics). A young person calls the military public relations line to ask about the next army recruitment ('Nígbà wo ni ẹ fẹ́ bẹ̀rẹ̀ síí gba àwọn ọmọ ogun tuntun?'). The agent must be professional, provide public info, and be encouraging. Include recording consent."
+  },
+  {
+    "id": "IPR-Military-InfoRequest-Recruit-Igbo",
+    "industry": "PublicSafety-Military",
+    "language": "Igbo (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Igbo (with diacritics). A young person calls the military public relations line to ask about the next army recruitment ('Olee mgbe unu ga-amalite iwere ndị agha ọhụrụ?'). The agent must be professional, provide public info, and be encouraging. Include recording consent."
+  },
+  {
+    "id": "IPR-Military-InfoRequest-Recruit-Hausa",
+    "industry": "PublicSafety-Military",
+    "language": "Hausa (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Hausa (with diacritics). A young person calls the military public relations line to ask about the next army recruitment ('Yaushe za a fara ɗaukar sabbin sojoji?'). The agent must be professional, provide public info, and be encouraging. Include recording consent."
+  },
+  {
+    "id": "ICC-Military-Complaint-Misconduct-English",
+    "industry": "PublicSafety-Military",
+    "language": "Standard Nigerian English",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Standard Nigerian English. A community leader calls the military civil-relations line, very concerned, to report misconduct by soldiers at a local checkpoint (e.g., harassing civilians). The agent must be extremely professional, de-escalate, show empathy, log the details, and escalate to a superior (Ref ID: CMR-XXXX). Include recording consent."
+  },
+  {
+    "id": "ICC-Military-Complaint-Misconduct-Pidgin",
+    "industry": "PublicSafety-Military",
+    "language": "Nigerian Pidgin",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Nigerian Pidgin. Community leader call military line, e dey worried. E report say soldiers for checkpoint dey harass people. The agent must be very professional, calm am down, show concern, log details, and escalate am (Ref ID: CMR-XXXX). Include recording consent."
+  },
+  {
+    "id": "ICC-Military-Complaint-Misconduct-Yoruba",
+    "industry": "PublicSafety-Military",
+    "language": "Yoruba (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Yoruba (with diacritics). A community leader calls the military civil-relations line, concerned about misconduct by soldiers at a checkpoint. The agent must be professional, de-escalate, show empathy, log details, and escalate (Ref ID: CMR-XXXX). Include recording consent."
+  },
+  {
+    "id": "ICC-Military-Complaint-Misconduct-Igbo",
+    "industry": "PublicSafety-Military",
+    "language": "Igbo (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Igbo (with diacritics). A community leader calls the military civil-relations line, concerned about misconduct by soldiers at a checkpoint. The agent must be professional, de-escalate, show empathy, log details, and escalate (Ref ID: CMR-XXXX). Include recording consent."
+  },
+  {
+    "id": "ICC-Military-Complaint-Misconduct-Hausa",
+    "industry": "PublicSafety-Military",
+    "language": "Hausa (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Hausa (with diacritics). A community leader calls the military civil-relations line, concerned about misconduct by soldiers at a checkpoint. The agent must be professional, de-escalate, show empathy, log details, and escalate (Ref ID: CMR-XXXX). Include recording consent."
+  },
+  {
+    "id": "ISG-Military-Suggestion-English",
+    "industry": "PublicSafety-Military",
+    "language": "Standard Nigerian English",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Standard Nigerian English. A local university staff member calls the military's civil-relations line to suggest a joint 'career day' or 'leadership' event for students. The agent must be professional, understand the request, and pass the details to the public outreach coordinator for consideration. Include recording consent."
+  },
+  {
+    "id": "ISG-Military-Suggestion-Pidgin",
+    "industry": "PublicSafety-Military",
+    "language": "Nigerian Pidgin",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Nigerian Pidgin. A university staff calls the military to suggest a joint 'career day' for students. The agent must be professional, understand, and pass the details to the outreach coordinator. Include recording consent."
+  },
+  {
+    "id": "ISG-Military-Suggestion-Yoruba",
+    "industry": "PublicSafety-Military",
+    "language": "Yoruba (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Yoruba (with diacritics). A university staff calls the military to suggest a joint 'career day' for students. The agent must be professional, understand, and pass the details to the outreach coordinator. Include recording consent."
+  },
+  {
+    "id": "ISG-Military-Suggestion-Igbo",
+    "industry": "PublicSafety-Military",
+    "language": "Igbo (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Igbo (with diacritics). A university staff calls the military to suggest a joint 'career day' for students. The agent must be professional, understand, and pass the details to the outreach coordinator. Include recording consent."
+  },
+  {
+    "id": "ISG-Military-Suggestion-Hausa",
+    "industry": "PublicSafety-Military",
+    "language": "Hausa (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Hausa (with diacritics). A university staff calls the military to suggest a joint 'career day' for students. The agent must be professional, understand, and pass the details to the outreach coordinator. Include recording consent."
+  },
+  {
+    "id": "IEM-Military-InvasionReport-English",
+    "industry": "PublicSafety-Military",
+    "language": "Standard Nigerian English",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Standard Nigerian English. A citizen from a border town calls the military's 'Guard Command' emergency line. They are reporting seeing *unidentified soldiers/vehicles crossing the border* in what looks like an external attack. The agent must stay calm, get the *exact coordinates/location*, description of vehicles/uniforms, and escalate the report *immediately* to a high-command officer. Include recording consent."
+  },
+  {
+    "id": "IEM-Military-InvasionReport-Pidgin",
+    "industry": "PublicSafety-Military",
+    "language": "Nigerian Pidgin",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Nigerian Pidgin. A citizen from a border town calls the military emergency line. They report 'I see strange soldiers dey cross border!' The agent must stay calm, get *exact location*, description of vehicles/uniforms, and escalate *immediately* to high-command. Include recording consent."
+  },
+  {
+    "id": "IEM-Military-InvasionReport-Yoruba",
+    "industry": "PublicSafety-Military",
+    "language": "Yoruba (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Yoruba (with diacritics). A citizen from a border town calls the military emergency line. They report 'Mo rí àwọn ọmọ ogun àjèjì tí wọ́n ń sọdá ààlà!' The agent must stay calm, get *exact location*, description of vehicles/uniforms, and escalate *immediately*. Include recording consent."
+  },
+  {
+    "id": "IEM-Military-InvasionReport-Igbo",
+    "industry": "PublicSafety-Military",
+    "language": "Igbo (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Igbo (with diacritics). A citizen from a border town calls the military emergency line. They report 'Ahụrụ m ndị agha m na-amaghị ka ha na-agafe oke!' The agent must stay calm, get *exact location*, description of vehicles/uniforms, and escalate *immediately*. Include recording consent."
+  },
+  {
+    "id": "IEM-Military-InvasionReport-Hausa",
+    "industry": "PublicSafety-Military",
+    "language": "Hausa (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Hausa (with diacritics). A citizen from a border town calls the military emergency line. They report 'Na ga wasu sojoji da ba a san ko su waye ba suna ketare iyaka!' The agent must stay calm, get *exact location*, description of vehicles/uniforms, and escalate *immediately*. Include recording consent."
+  }
+]
