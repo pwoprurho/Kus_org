@@ -1,0 +1,107 @@
+[
+  {
+    "id": "ProductDeliveryComplaint-English",
+    "industry": "E-Commerce",
+    "language": "Standard Nigerian English",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Standard Nigerian English. A customer calls, annoyed. They ordered a phone last week (promised Tuesday, now Thursday), and it hasn't arrived. The agent is polite, verifies identity (phone + order ID), tries to track the order using a mock tracking system, provides an update (even if delayed), and offers reassurance. Include recording consent."
+  },
+  {
+    "id": "ProductDeliveryComplaint-Pidgin",
+    "industry": "E-Commerce",
+    "language": "Nigerian Pidgin",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Nigerian Pidgin. A customer calls, annoyed. They ordered a phone last week (promised Tuesday, now Thursday), and it hasn't arrived ('where my package dey?'). The agent is polite, verifies identity (phone + order ID), tries to track the order, provides an update (even if delayed), and offers reassurance. Include recording consent."
+  },
+  {
+    "id": "ProductDeliveryComplaint-Yoruba",
+    "industry": "E-Commerce",
+    "language": "Yoruba (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Yoruba (with diacritics). A customer calls, annoyed. They ordered a phone last week (promised Tuesday, now Thursday), and it hasn't arrived ('ẹrù mi kò tíì dé'). The agent is polite, verifies identity (phone + order ID), tries to track the order, provides an update (even if delayed), and offers reassurance. Include recording consent."
+  },
+  {
+    "id": "ProductDeliveryComplaint-Igbo",
+    "industry": "E-Commerce",
+    "language": "Igbo (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Igbo (with diacritics). A customer calls, annoyed. They ordered a phone last week (promised Tuesday, now Thursday), and it hasn't arrived ('ngwá m ebutabeghị'). The agent is polite, verifies identity (phone + order ID), tries to track the order, provides an update (even if delayed), and offers reassurance. Include recording consent."
+  },
+  {
+    "id": "ProductDeliveryComplaint-Hausa",
+    "industry": "E-Commerce",
+    "language": "Hausa (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Hausa (with diacritics). A customer calls, annoyed. They ordered a phone last week (promised Tuesday, now Thursday), and it hasn't arrived ('kayana bai iso ba'). The agent is polite, verifies identity (phone + order ID), tries to track the order, provides an update (even if delayed), and offers reassurance. Include recording consent."
+  },
+  {
+    "id": "IEN-ECommerce-Enquiry-English",
+    "industry": "E-Commerce",
+    "language": "Standard Nigerian English",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Standard Nigerian English. A customer calls *before* making a purchase to ask about the return policy and warranty details for a specific electronic item (e.g., 'a TV'). The agent must provide clear, accurate policy information to help the customer make a decision. Include recording consent."
+  },
+  {
+    "id": "IEN-ECommerce-Enquiry-Pidgin",
+    "industry": "E-Commerce",
+    "language": "Nigerian Pidgin",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Nigerian Pidgin. A customer calls *before* buying a TV to ask about the return policy ('If e spoil, I fit bring am come back?') and warranty. The agent must provide clear policy information. Include recording consent."
+  },
+  {
+    "id": "IEN-ECommerce-Enquiry-Yoruba",
+    "industry": "E-Commerce",
+    "language": "Yoruba (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Yoruba (with diacritics). A customer calls *before* buying a TV to ask about the return policy ('Ṣé mo lè da padà?') and warranty. The agent must provide clear, accurate policy information. Include recording consent."
+  },
+  {
+    "id": "IEN-ECommerce-Enquiry-Igbo",
+    "industry": "E-Commerce",
+    "language": "Igbo (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Igbo (with diacritics). A customer calls *before* buying a TV to ask about the return policy ('Enwere m ike iweghachi ya?') and warranty. The agent must provide clear, accurate policy information. Include recording consent."
+  },
+  {
+    "id": "IEN-ECommerce-Enquiry-Hausa",
+    "industry": "E-Commerce",
+    "language": "Hausa (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Hausa (with diacritics). A customer calls *before* buying a TV to ask about the return policy ('Zan iya mayarwa?') and warranty. The agent must provide clear, accurate policy information. Include recording consent."
+  },
+  {
+    "id": "ISG-ECommerce-Suggestion-English",
+    "industry": "E-Commerce",
+    "language": "Standard Nigerian English",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Standard Nigerian English. A regular customer calls to suggest the company start stocking a new, related product line (e.g., 'You sell phones, you should sell high-quality screen protectors too'). The agent must thank them and log the feedback for the procurement/merchandising team. Include recording consent."
+  },
+  {
+    "id": "ISG-ECommerce-Suggestion-Pidgin",
+    "industry": "E-Commerce",
+    "language": "Nigerian Pidgin",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Nigerian Pidgin. A customer calls to suggest the company sell screen protectors. The agent must thank them and log the feedback. Include recording consent."
+  },
+  {
+    "id": "ISG-ECommerce-Suggestion-Yoruba",
+    "industry": "E-Commerce",
+    "language": "Yoruba (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Yoruba (with diacritics). A customer calls to suggest the company sell screen protectors. The agent must thank them and log the feedback. Include recording consent."
+  },
+  {
+    "id": "ISG-ECommerce-Suggestion-Igbo",
+    "industry": "E-Commerce",
+    "language": "Igbo (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Igbo (with diacritics). A customer calls to suggest the company sell screen protectors. The agent must thank them and log the feedback. Include recording consent."
+  },
+  {
+    "id": "ISG-ECommerce-Suggestion-Hausa",
+    "industry": "E-Commerce",
+    "language": "Hausa (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Hausa (with all native diacritics). A customer calls to suggest the company sell screen protectors. The agent must thank them and log the feedback. Include recording consent."
+  }
+]
