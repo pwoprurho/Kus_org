@@ -1,0 +1,177 @@
+[
+  {
+    "id": "IPR-Police-InfoRequest-English",
+    "industry": "PublicSafety-Police",
+    "language": "Standard Nigerian English",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Standard Nigerian English. A citizen calls the police non-emergency public relations line. They need to know the correct procedure to get a police report for an insurance claim. The agent must be professional, clear, and provide the exact steps (e.g., visit nearest station, documents needed). Include recording consent."
+  },
+  {
+    "id": "IPR-Police-InfoRequest-Pidgin",
+    "industry": "PublicSafety-Police",
+    "language": "Nigerian Pidgin",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Nigerian Pidgin. Person call police non-emergency line. E need to know how to get police report for insurance. The agent must be professional, clear, and tell am the steps (e.g., go station, wetin to carry). Include recording consent."
+  },
+  {
+    "id": "IPR-Police-InfoRequest-Yoruba",
+    "industry": "PublicSafety-Police",
+    "language": "Yoruba (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Yoruba (with diacritics). A citizen calls the police non-emergency public relations line for info on getting a police report for insurance. The agent must be professional, clear, and provide the exact steps. Include recording consent."
+  },
+  {
+    "id": "IPR-Police-InfoRequest-Igbo",
+    "industry": "PublicSafety-Police",
+    "language": "Igbo (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Igbo (with diacritics). A citizen calls the police non-emergency public relations line for info on getting a police report for insurance. The agent must be professional, clear, and provide the exact steps. Include recording consent."
+  },
+  {
+    "id": "IPR-Police-InfoRequest-Hausa",
+    "industry": "PublicSafety-Police",
+    "language": "Hausa (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Hausa (with diacritics). A citizen calls the police non-emergency public relations line for info on getting a police report for insurance. The agent must be professional, clear, and provide the exact steps. Include recording consent."
+  },
+  {
+    "id": "ICC-Police-Complaint-Misconduct-English",
+    "industry": "PublicSafety-Police",
+    "language": "Standard Nigerian English",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Standard Nigerian English. A citizen calls the police complaints line, very angry. They claim an officer at a checkpoint was rude and unprofessional. The agent must be calm, de-escalate, be empathetic, log the complaint details (officer description, location), and provide a reference ID (e.g., PCRU-XXXX). Include recording consent."
+  },
+  {
+    "id": "ICC-Police-Complaint-Misconduct-Pidgin",
+    "industry": "PublicSafety-Police",
+    "language": "Nigerian Pidgin",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Nigerian Pidgin. Person call complaints line, e dey vex. E say one officer for checkpoint rude. The agent must be calm, cool am down, log the complaint (how officer be, where), and give am reference ID (e.g., PCRU-XXXX). Include recording consent."
+  },
+  {
+    "id": "ICC-Police-Complaint-Misconduct-Yoruba",
+    "industry": "PublicSafety-Police",
+    "language": "Yoruba (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Yoruba (with diacritics). A citizen calls the police complaints line, very angry about a rude officer at a checkpoint. The agent must be calm, de-escalate, be empathetic, log the complaint details, and provide a reference ID (e.g., PCRU-XXXX). Include recording consent."
+  },
+  {
+    "id": "ICC-Police-Complaint-Misconduct-Igbo",
+    "industry": "PublicSafety-Police",
+    "language": "Igbo (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Igbo (with diacritics). A citizen calls the police complaints line, very angry about a rude officer at a checkpoint. The agent must be calm, de-escalate, be empathetic, log the complaint details, and provide a reference ID (e.g., PCRU-XXXX). Include recording consent."
+  },
+  {
+    "id": "ICC-Police-Complaint-Misconduct-Hausa",
+    "industry": "PublicSafety-Police",
+    "language": "Hausa (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Hausa (with diacritics). A citizen calls the police complaints line, very angry about a rude officer at a checkpoint. The agent must be calm, de-escalate, be empathetic, log the complaint details, and provide a reference ID (e.g., PCRU-XXXX). Include recording consent."
+  },
+  {
+    "id": "ISG-Police-Suggestion-English",
+    "industry": "PublicSafety-Police",
+    "language": "Standard Nigerian English",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Standard Nigerian English. A citizen calls the non-emergency line to suggest a new location for a police checkpoint due to recent petty theft in their area, or to propose a partnership for a new neighborhood watch program. The agent must be professional, receptive, thank them for their community-mindedness, and direct them to the correct community-policing officer or log it for review. Include recording consent."
+  },
+  {
+    "id": "ISG-Police-Suggestion-Pidgin",
+    "industry": "PublicSafety-Police",
+    "language": "Nigerian Pidgin",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Nigerian Pidgin. A citizen calls to suggest 'make una put checkpoint for our street, boys dey thief too much'. The agent must be professional, receptive, and log it for review. Include recording consent."
+  },
+  {
+    "id": "ISG-Police-Suggestion-Yoruba",
+    "industry": "PublicSafety-Police",
+    "language": "Yoruba (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Yoruba (with diacritics). A citizen calls to suggest 'Kí ẹ fi ibùdó ọlọ́pàá sí adúgbò wa nítorí olè'. The agent must be professional, receptive, and log it for review. Include recording consent."
+  },
+  {
+    "id": "ISG-Police-Suggestion-Igbo",
+    "industry": "PublicSafety-Police",
+    "language": "Igbo (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Igbo (with diacritics). A citizen calls to suggest 'Biko, tinyenụ ebe nyocha ndị uwe ojii n'ógbè anyị maka ndị ohi'. The agent must be professional, receptive, and log it for review. Include recording consent."
+  },
+  {
+    "id": "ISG-Police-Suggestion-Hausa",
+    "industry": "PublicSafety-Police",
+    "language": "Hausa (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Hausa (with diacritics). A citizen calls to suggest 'Don Allah, a sanya mana wurin binciken 'yan sanda a yankinmu saboda ɓarayi'. The agent must be professional, receptive, and log it for review. Include recording consent."
+  },
+  {
+    "id": "IEM-Police-ArmedRobbery-English",
+    "industry": "PublicSafety-Police",
+    "language": "Standard Nigerian English",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Standard Nigerian English. A citizen calls the police emergency line (e.g., 112) in a state of panic, whispering. They are reporting an *armed robbery in progress* at their location (e.g., a bank or supermarket). The agent (dispatcher) must remain calm, get the *exact location*, number of robbers, and if they are armed, and confirm that help is being dispatched *immediately*. Include recording consent."
+  },
+  {
+    "id": "IEM-Police-ArmedRobbery-Pidgin",
+    "industry": "PublicSafety-Police",
+    "language": "Nigerian Pidgin",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Nigerian Pidgin. A citizen calls emergency line (112), whispering in panic. Dem dey report *armed robbery wey dey happen now* ('dem carry gun!'). The agent must be calm, get *exact location*, number of robbers, and confirm 'help dey come now now!'. Include recording consent."
+  },
+  {
+    "id": "IEM-Police-ArmedRobbery-Yoruba",
+    "industry": "PublicSafety-Police",
+    "language": "Yoruba (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Yoruba (with diacritics). A citizen calls emergency line (112), whispering in panic. They are reporting *armed robbery in progress* ('Àwọn ọlọ́ṣà dé o!'). The agent must be calm, get *exact location*, number of robbers, if they are armed, and confirm 'àwọn ọlọ́pàá ń bọ̀ ní kíá'. Include recording consent."
+  },
+  {
+    "id": "IEM-Police-ArmedRobbery-Igbo",
+    "industry": "PublicSafety-Police",
+    "language": "Igbo (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Igbo (with diacritics). A citizen calls emergency line (112), whispering in panic. They are reporting *armed robbery in progress* ('Ndị ohi ji egbe!'). The agent must be calm, get *exact location*, number of robbers, if they are armed, and confirm 'ndị uwe ojii na-abịa ozugbo!'. Include recording consent."
+  },
+  {
+    "id": "IEM-Police-ArmedRobbery-Hausa",
+    "industry": "PublicSafety-Police",
+    "language": "Hausa (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Hausa (with diacritics). A citizen calls emergency line (112), whispering in panic. They are reporting *armed robbery in progress* ('’Yan fashi da makami!'). The agent must be calm, get *exact location*, number of robbers, if they are armed, and confirm 'ga 'yan sanda nan zuwa yanzu!'. Include recording consent."
+  },
+  {
+    "id": "IEM-Police-BanditAttack-English",
+    "industry": "PublicSafety-Police",
+    "language": "Standard Nigerian English",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Standard Nigerian English. A caller from a rural community calls the police emergency line, terrified. They are reporting a *bandit attack* on their village *happening now*. They mention gunshots and people running. The agent (dispatcher) must get the village name, nearest major road, estimated number of attackers, and assure them a rapid response team is being mobilized. Include recording consent."
+  },
+  {
+    "id": "IEM-Police-BanditAttack-Pidgin",
+    "industry": "PublicSafety-Police",
+    "language": "Nigerian Pidgin",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Nigerian Pidgin. A caller from a village calls, terrified. They report 'bandits dey attack us now!', mention gunshots. The agent must get village name, nearest major road, and assure 'we dey send men come'. Include recording consent."
+  },
+  {
+    "id": "IEM-Police-BanditAttack-Yoruba",
+    "industry": "PublicSafety-Police",
+    "language": "Yoruba (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Yoruba (with diacritics). A caller from a rural community calls, terrified. They report 'àwọn ọlọ́ṣà ń gbógun ti abúlé wa!', mention gunshots. The agent must get village name, nearest major road, and assure 'à ń rán àwọn ọlọ́pàá lọ'. Include recording consent."
+  },
+  {
+    "id": "IEM-Police-BanditAttack-Igbo",
+    "industry": "PublicSafety-Police",
+    "language": "Igbo (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Igbo (with diacritics). A caller from a rural community calls, terrified. They report 'ndị ohi na-awakpo obodo anyị!', mention gunshots. The agent must get village name, nearest major road, and assure 'anyị na-eziga ndị uwe ojii'. Include recording consent."
+  },
+  {
+    "id": "IEM-Police-BanditAttack-Hausa",
+    "industry": "PublicSafety-Police",
+    "language": "Hausa (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Hausa (with diacritics). A caller from a rural community calls, terrified. They report '’yan fashi suna kai mana hari yanzu!', mention gunshots. The agent must get village name, nearest major road, and assure 'muna aiko da jami'ai'. Include recording consent."
+  }
+    ]
