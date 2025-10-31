@@ -1,0 +1,177 @@
+[
+  {
+    "id": "IAS-Hospitality-English",
+    "industry": "Hospitality",
+    "language": "Standard Nigerian English",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Standard Nigerian English. A client calls a hotel to book a room reservation for a weekend. The agent must be welcoming, check availability (room type, dates), verify identity (full name + phone), confirm the rate, and secure the booking (provide Booking ID like HLT-XXXX). Include recording consent."
+  },
+  {
+    "id": "IAS-Hospitality-Pidgin",
+    "industry": "Hospitality",
+    "language": "Nigerian Pidgin",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Nigerian Pidgin. A client calls a hotel to book room for weekend. The agent must be welcoming, check if room dey (which type, which date), verify identity (full name + phone), confirm the price, and book am (provide Booking ID like HLT-XXXX). Include recording consent."
+  },
+  {
+    "id": "IAS-Hospitality-Yoruba",
+    "industry": "Hospitality",
+    "language": "Yoruba (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Yoruba (with diacritics). A client calls a hotel to book a room reservation for a weekend. The agent must be welcoming, check availability (irú yàrá, ọjọ́), verify identity (orúkọ pípé + fóònù), confirm the rate, and secure the booking (provide Booking ID like HLT-XXXX). Include recording consent."
+  },
+  {
+    "id": "IAS-Hospitality-Igbo",
+    "industry": "Hospitality",
+    "language": "Igbo (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Igbo (with diacritics). A client calls a hotel to book a room reservation for a weekend. The agent must be welcoming, check availability (ụdị ọnụ ụlọ, ụbọchị), verify identity (aha zuru ezu + ekwentị), confirm the rate, and secure the booking (provide Booking ID like HLT-XXXX). Include recording consent."
+  },
+  {
+    "id": "IAS-Hospitality-Hausa",
+    "industry": "Hospitality",
+    "language": "Hausa (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Hausa (with diacritics). A client calls a hotel to book a room reservation for a weekend. The agent must be welcoming, check availability (nau'in daki, kwanakin), verify identity (cikakken suna + waya), confirm the rate, and secure the booking (provide Booking ID like HLT-XXXX). Include recording consent."
+  },
+  {
+    "id": "IAR-Hospitality-English",
+    "industry": "Hospitality",
+    "language": "Standard Nigerian English",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Standard Nigerian English. A client calls a hotel to modify an existing booking (e.g., change dates). The agent must be polite, verify identity (Booking ID + name), check feasibility, confirm any rate changes, and update the booking. Include recording consent."
+  },
+  {
+    "id": "IAR-Hospitality-Pidgin",
+    "industry": "Hospitality",
+    "language": "Nigerian Pidgin",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Nigerian Pidgin. A client calls a hotel to change date for e booking. The agent must be polite, verify identity (Booking ID + name), check if e possible, tell am if price change, and update the booking. Include recording consent."
+  },
+  {
+    "id": "IAR-Hospitality-Yoruba",
+    "industry": "Hospitality",
+    "language": "Yoruba (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Yoruba (with diacritics). A client calls a hotel to modify an existing booking (e.g., change dates). The agent must be polite, verify identity (Booking ID + name), check feasibility, confirm any rate changes, and update the booking. Include recording consent."
+  },
+  {
+    "id": "IAR-Hospitality-Igbo",
+    "industry": "Hospitality",
+    "language": "Igbo (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Igbo (with diacritics). A client calls a hotel to modify an existing booking (e.g., change dates). The agent must be polite, verify identity (Booking ID + name), check feasibility, confirm any rate changes, and update the booking. Include recording consent."
+  },
+  {
+    "id": "IAR-Hospitality-Hausa",
+    "industry": "Hospitality",
+    "language": "Hausa (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Hausa (with diacritics). A client calls a hotel to modify an existing booking (e.g., change dates). The agent must be polite, verify identity (Booking ID + name), check feasibility, confirm any rate changes, and update the booking. Include recording consent."
+  },
+  {
+    "id": "OAC-Hospitality-English",
+    "industry": "Hospitality",
+    "language": "Standard Nigerian English",
+    "direction": "Outbound",
+    "prompt": "Generate a realistic transcript in Standard Nigerian English. An agent from a hotel makes an outbound call to a guest to confirm their reservation for check-in tomorrow. The agent must verify identity (full name + booking ID), confirm booking details, and ask for estimated arrival time."
+  },
+  {
+    "id": "OAC-Hospitality-Pidgin",
+    "industry": "Hospitality",
+    "language": "Nigerian Pidgin",
+    "direction": "Outbound",
+    "prompt": "Generate a realistic transcript in Nigerian Pidgin. An agent from a hotel calls a guest to confirm their booking for tomorrow. The agent must verify identity (full name + booking ID), confirm booking details, and ask which time dem go reach."
+  },
+  {
+    "id": "OAC-Hospitality-Yoruba",
+    "industry": "Hospitality",
+    "language": "Yoruba (with all native diacritics)",
+    "direction": "Outbound",
+    "prompt": "Generate a realistic transcript in Yoruba (with diacritics). An agent from a hotel makes an outbound call to a guest to confirm their reservation for check-in tomorrow. The agent must verify identity (full name + booking ID), confirm booking details, and ask for estimated arrival time."
+  },
+  {
+    "id": "OAC-Hospitality-Igbo",
+    "industry": "Hospitality",
+    "language": "Igbo (with all native diacritics)",
+    "direction": "Outbound",
+    "prompt": "Generate a realistic transcript in Igbo (with diacritics). An agent from a hotel makes an outbound call to a guest to confirm their reservation for check-in tomorrow. The agent must verify identity (full name + booking ID), confirm booking details, and ask for estimated arrival time."
+  },
+  {
+    "id": "OAC-Hospitality-Hausa",
+    "industry": "Hospitality",
+    "language": "Hausa (with all native diacritics)",
+    "direction": "Outbound",
+    "prompt": "Generate a realistic transcript in Hausa (with diacritics). An agent from a hotel makes an outbound call to a guest to confirm their reservation for check-in tomorrow. The agent must verify identity (full name + booking ID), confirm booking details, and ask for estimated arrival time."
+  },
+  {
+    "id": "IHE-Hospitality-English",
+    "industry": "Hospitality",
+    "language": "Standard Nigerian English",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Standard Nigerian English. A guest calls the hotel's front desk, angry about a service issue (e.g., A/C is broken). They demand a manager. The agent must apologize profusely, de-escalate, verify identity (room number + name), and transfer the call to a duty manager. Include recording consent."
+  },
+  {
+    "id": "IHE-Hospitality-Pidgin",
+    "industry": "Hospitality",
+    "language": "Nigerian Pidgin",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Nigerian Pidgin. A guest calls hotel, e dey vex say A/C no dey work. E dey shout say make e follow manager talk. The agent must beg well well, calm am down, verify identity (room number + name), and transfer the call to manager. Include recording consent."
+  },
+  {
+    "id": "IHE-Hospitality-Yoruba",
+    "industry": "Hospitality",
+    "language": "Yoruba (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Yoruba (with diacritics). A guest calls the hotel's front desk, angry about a service issue (e.g., A/C is broken). They demand a manager. The agent must apologize profusely, de-escalate, verify identity (room number + name), and transfer the call. Include recording consent."
+  },
+  {
+    "id": "IHE-Hospitality-Igbo",
+    "industry": "Hospitality",
+    "language": "Igbo (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Igbo (with diacritics). A guest calls the hotel's front desk, angry about a service issue (e.g., A/C is broken). They demand a manager. The agent must apologize profusely, de-escalate, verify identity (room number + name), and transfer the call. Include recording consent."
+  },
+  {
+    "id": "IHE-Hospitality-Hausa",
+    "industry": "Hospitality",
+    "language": "Hausa (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Hausa (with diacritics). A guest calls the hotel's front desk, angry about a service issue (e.g., A/C is broken). They demand a manager. The agent must apologize profusely, de-escalate, verify identity (room number + name), and transfer the call. Include recording consent."
+  },
+  {
+    "id": "ISG-Hospitality-Suggestion-English",
+    "industry": "Hospitality",
+    "language": "Standard Nigerian English",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Standard Nigerian English. A guest, during check-out, calls the front desk to suggest a new service (e.g., 'The hotel was great, but you should consider adding an airport shuttle service'). The agent must be enthusiastic, thank them for the idea, and promise to pass it directly to the hotel manager. Include recording consent."
+  },
+  {
+    "id": "ISG-Hospitality-Suggestion-Pidgin",
+    "industry": "Hospitality",
+    "language": "Nigerian Pidgin",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Nigerian Pidgin. A guest calls to suggest 'make una add airport shuttle service'. The agent must be enthusiastic, thank them, and promise to pass it to the manager. Include recording consent."
+  },
+  {
+    "id": "ISG-Hospitality-Suggestion-Yoruba",
+    "industry": "Hospitality",
+    "language": "Yoruba (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Yoruba (with diacritics). A guest calls to suggest 'Kí ẹ wá ọkọ̀ ayọ́kẹ́lẹ́ tó máa ń gbé èèyàn lọ sí pápákọ̀ òfurufú'. The agent must be enthusiastic, thank them, and promise to pass it to the manager. Include recording consent."
+  },
+  {
+    "id": "ISG-Hospitality-Suggestion-Igbo",
+    "industry": "Hospitality",
+    "language": "Igbo (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Igbo (with diacritics). A guest calls to suggest 'Ọ ga-adị mma ma ọ bụrụ na unu enwee ụgbọ ala na-ebuga ndị mmadụ n'ọdụ ụgbọ elu'. The agent must be enthusiastic, thank them, and promise to pass it to the manager. Include recording consent."
+  },
+  {
+    "id": "ISG-Hospitality-Suggestion-Hausa",
+    "industry": "Hospitality",
+    "language": "Hausa (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Hausa (with diacritics). A guest calls to suggest 'Ya kamata ku samar da motar jigilar filin jirgi'. The agent must be enthusiastic, thank them, and promise to pass it to the manager. Include recording consent."
+  }
+]
