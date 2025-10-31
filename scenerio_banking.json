@@ -1,0 +1,142 @@
+[
+  {
+    "id": "UnauthorizedDebit-English",
+    "industry": "Banking",
+    "language": "Standard Nigerian English",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Standard Nigerian English. A customer calls, angry about an unauthorized POS debit on their savings account. The agent must be empathetic, verify identity (phone + account last 4), confirm the debit details, block the card, raise a fraud case (provide a case ID like UBD-XXXX), and assure the customer of investigation. Include recording consent."
+  },
+  {
+    "id": "UnauthorizedDebit-Pidgin",
+    "industry": "Banking",
+    "language": "Nigerian Pidgin",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Nigerian Pidgin. A customer calls, angry about an unauthorized POS debit on their savings account ('dem don chop my money!'). The agent must be empathetic, verify identity (phone + account last 4), confirm the debit details, block the card, raise a fraud case (provide a case ID like UBD-XXXX), and assure the customer of investigation. Include recording consent."
+  },
+  {
+    "id": "UnauthorizedDebit-Yoruba",
+    "industry": "Banking",
+    "language": "Yoruba (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Yoruba (with diacritics). A customer calls, angry about an unauthorized POS debit on their savings account (Wọ́n ti yọ owó mi!). The agent must be empathetic, verify identity (phone + account last 4), confirm the debit details, block the card, raise a fraud case (provide a case ID like UBD-XXXX), and assure the customer of investigation. Include recording consent."
+  },
+  {
+    "id": "UnauthorizedDebit-Igbo",
+    "industry": "Banking",
+    "language": "Igbo (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Igbo (with diacritics). A customer calls, angry about an unauthorized POS debit on their savings account (Ha ewerela ego m!). The agent must be empathetic, verify identity (phone + account last 4), confirm the debit details, block the card, raise a fraud case (provide a case ID like UBD-XXXX), and assure the customer of investigation. Include recording consent."
+  },
+  {
+    "id": "UnauthorizedDebit-Hausa",
+    "industry": "Banking",
+    "language": "Hausa (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Hausa (with diacritics). A customer calls, angry about an unauthorized POS debit on their savings account (An cire min kuɗi!). The agent must be empathetic, verify identity (phone + account last 4), confirm the debit details, block the card, raise a fraud case (provide a case ID like UBD-XXXX), and assure the customer of investigation. Include recording consent."
+  },
+  {
+    "id": "BillingDispute-English",
+    "industry": "Banking",
+    "language": "Standard Nigerian English",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Standard Nigerian English. A long-time, high-value customer is frustrated and angry about being incorrectly charged a fee for the third time. They threaten to close their accounts. The agent must be professional, empathetic, verify identity (phone + account), identify the charge, raise a reversal (provide ref ID like R-XXXX), de-escalate, and confirm resolution time. Include recording consent."
+  },
+  {
+    "id": "BillingDispute-Pidgin",
+    "industry": "Banking",
+    "language": "Nigerian Pidgin",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Nigerian Pidgin. A long-time customer is frustrated about being incorrectly charged a fee for the third time ('Dis na de third time!'). They threaten to close their accounts ('I go comot all my money o!'). The agent must be professional, verify identity (phone + account), identify the charge, raise a reversal (provide ref ID like R-XXXX), de-escalate, and confirm resolution time. Include recording consent."
+  },
+  {
+    "id": "BillingDispute-Yoruba",
+    "industry": "Banking",
+    "language": "Yoruba (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Yoruba (with diacritics). A long-time customer is frustrated about being incorrectly charged a fee for the third time ('Ẹ̀kẹta l'èyí o!'). They threaten to close their accounts. The agent must be professional, verify identity (phone + account), identify the charge, raise a reversal (provide ref ID like R-XXXX), de-escalate, and confirm resolution time. Include recording consent."
+  },
+  {
+    "id": "BillingDispute-Igbo",
+    "industry": "Banking",
+    "language": "Igbo (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Igbo (with diacritics). A long-time customer is frustrated about being incorrectly charged a fee for the third time ('Nke a bụ nke atọ!'). They threaten to close their accounts. The agent must be professional, verify identity (phone + account), identify the charge, raise a reversal (provide ref ID like R-XXXX), de-escalate, and confirm resolution time. Include recording consent."
+  },
+  {
+    "id": "BillingDispute-Hausa",
+    "industry": "Banking",
+    "language": "Hausa (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Hausa (with diacritics). A long-time customer is frustrated about being incorrectly charged a fee for the third time ('Wannan shi ne na uku!'). They threaten to close their accounts. The agent must be professional, verify identity (phone + account), identify the charge, raise a reversal (provide ref ID like R-XXXX), de-escalate, and confirm resolution time. Include recording consent."
+  },
+  {
+    "id": "AccountInfoRequest-English",
+    "industry": "Banking",
+    "language": "Standard Nigerian English",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Standard Nigerian English. An elderly client calls needing help checking their account balance and confirming a pension deposit. They are polite but tech-unsavvy. The agent must be extremely respectful, patient, verify identity (phone + DOB), clearly guide them, provide the requested info, and offer further assistance. Include recording consent."
+  },
+  {
+    "id": "AccountInfoRequest-Pidgin",
+    "industry": "Banking",
+    "language": "Nigerian Pidgin",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Nigerian Pidgin. An elderly client calls needing help checking their account balance and confirming a pension deposit ('My pension don enter?'). They are polite but tech-unsavvy. The agent must be respectful and patient, verify identity (phone + DOB), clearly guide them, provide the requested info, and offer further assistance. Include recording consent."
+  },
+  {
+    "id": "AccountInfoRequest-Yoruba",
+    "industry": "Banking",
+    "language": "Yoruba (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Yoruba (with diacritics). An elderly client calls needing help checking their account balance and confirming a pension deposit. They are polite but tech-unsavvy. The agent must be extremely respectful ('Ẹ pẹ̀lẹ́ Sir/Ma'), patient, verify identity (phone + DOB), clearly guide them, provide the requested info, and offer further assistance. Include recording consent."
+  },
+  {
+    "id": "AccountInfoRequest-Igbo",
+    "industry": "Banking",
+    "language": "Igbo (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Igbo (with diacritics). An elderly client calls needing help checking their account balance and confirming a pension deposit. They are polite but tech-unsavvy. The agent must be extremely respectful ('Nnọọ Mama/Papa'), patient, verify identity (phone + DOB), clearly guide them, provide the requested info, and offer further assistance. Include recording consent."
+  },
+  {
+    "id": "AccountInfoRequest-Hausa",
+    "industry": "Banking",
+    "language": "Hausa (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Hausa (with diacritics). An elderly client calls needing help checking their account balance and confirming a pension deposit. They are polite but tech-unsavvy. The agent must be extremely respectful ('Sannu Baba/Inna'), patient, verify identity (phone + DOB), clearly guide them, provide the requested info, and offer further assistance. Include recording consent."
+  },
+  {
+    "id": "ISG-Banking-Suggestion-English",
+    "industry": "Banking",
+    "language": "Standard Nigerian English",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Standard Nigerian English. A long-time customer calls with a constructive suggestion for the bank's mobile app (e.g., 'You should add a feature to categorize spending'). The agent must be appreciative, confirm they understand the suggestion, and explain how they will log it as formal feedback for the development team. Include recording consent."
+  },
+  {
+    "id": "ISG-Banking-Suggestion-Pidgin",
+    "industry": "Banking",
+    "language": "Nigerian Pidgin",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Nigerian Pidgin. A customer calls with a suggestion for the mobile app ('Una app suppose get feature wey dey track spending'). The agent must be appreciative, confirm they understand, and explain how they will log it as feedback. Include recording consent."
+  },
+  {
+    "id": "ISG-Banking-Suggestion-Yoruba",
+    "industry": "Banking",
+    "language": "Yoruba (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Yoruba (with diacritics). A customer calls with a constructive suggestion for the bank's mobile app ('Ó yẹ kí app yín ní ibi tí a lè pín àwọn ìnáwó sí'). The agent must be appreciative, confirm they understand, and explain how they will log it as formal feedback. Include recording consent."
+  },
+  {
+    "id": "ISG-Banking-Suggestion-Igbo",
+    "industry": "Banking",
+    "language": "Igbo (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Igbo (with diacritics). A customer calls with a constructive suggestion for the bank's mobile app ('Ọ ga-adị mma ma app unu nwee ebe a ga-ekewa ego ọpụpụ'). The agent must be appreciative, confirm they understand, and explain how they will log it as formal feedback. Include recording consent."
+  },
+  {
+    "id": "ISG-Banking-Suggestion-Hausa",
+    "industry": "Banking",
+    "language": "Hausa (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Hausa (with diacritics). A customer calls with a constructive suggestion for the bank's mobile app ('Ya kamata app naku ya sami wurin rarraba kashe-kashe'). The agent must be appreciative, confirm they understand, and explain how they will log it as formal feedback. Include recording consent."
+  }
+]
