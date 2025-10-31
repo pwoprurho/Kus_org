@@ -1,0 +1,212 @@
+[
+  {
+    "id": "IAC-Healthcare-English",
+    "industry": "Healthcare",
+    "language": "Standard Nigerian English",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Standard Nigerian English. A patient calls a hospital to confirm their appointment. The agent must be polite, verify identity (Patient ID or Phone + DOB), locate the appointment, and clearly state the confirmed date, time, and doctor. Include recording consent."
+  },
+  {
+    "id": "IAC-Healthcare-Pidgin",
+    "industry": "Healthcare",
+    "language": "Nigerian Pidgin",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Nigerian Pidgin. A patient calls hospital to confirm appointment. The agent must be polite, verify identity (Patient ID or Phone + DOB), find the appointment, and tell them the correct date, time, and doctor. Include recording consent."
+  },
+  {
+    "id": "IAC-Healthcare-Yoruba",
+    "industry": "Healthcare",
+    "language": "Yoruba (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Yoruba (with diacritics). A patient calls a hospital to confirm their appointment. The agent must be polite, verify identity (Patient ID or Phone + DOB), locate the appointment, and clearly state the confirmed date, time, and doctor. Include recording consent."
+  },
+  {
+    "id": "IAC-Healthcare-Igbo",
+    "industry": "Healthcare",
+    "language": "Igbo (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Igbo (with diacritics). A patient calls a hospital to confirm their appointment. The agent must be polite, verify identity (Patient ID or Phone + DOB), locate the appointment, and clearly state the confirmed date, time, and doctor. Include recording consent."
+  },
+  {
+    "id": "IAC-Healthcare-Hausa",
+    "industry": "Healthcare",
+    "language": "Hausa (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Hausa (with diacritics). A patient calls a hospital to confirm their appointment. The agent must be polite, verify identity (Patient ID or Phone + DOB), locate the appointment, and clearly state the confirmed date, time, and doctor. Include recording consent."
+  },
+  {
+    "id": "IAS-Healthcare-English",
+    "industry": "Healthcare",
+    "language": "Standard Nigerian English",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Standard Nigerian English. A new patient calls a hospital to book an appointment with a GP. The agent must be polite, collect necessary details (symptoms, preferred date), verify identity (new patient: full name + phone), find an available slot, and confirm the booking (provide Appt ID like HOS-XXXX). Include recording consent."
+  },
+  {
+    "id": "IAS-Healthcare-Pidgin",
+    "industry": "Healthcare",
+    "language": "Nigerian Pidgin",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Nigerian Pidgin. A new patient calls a hospital to book appointment with a doctor. The agent must be polite, collect details (wetin dey do am, which day e go fit come), verify identity (full name + phone), find available slot, and confirm the booking (provide Appt ID like HOS-XXXX). Include recording consent."
+  },
+  {
+    "id": "IAS-Healthcare-Yoruba",
+    "industry": "Healthcare",
+    "language": "Yoruba (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Yoruba (with diacritics). A new patient calls a hospital to book appointment with a doctor. The agent must be polite, collect details (àwọn àmì àìsàn, ọjọ́ tó wù wọ́n), verify identity (orúkọ pípé + fóònù), find available slot, and confirm the booking (provide Appt ID like HOS-XXXX). Include recording consent."
+  },
+  {
+    "id": "IAS-Healthcare-Igbo",
+    "industry": "Healthcare",
+    "language": "Igbo (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Igbo (with diacritics). A new patient calls a hospital to book appointment with a doctor. The agent must be polite, collect details (mgbaàmà, ụbọchị ọ masịrị ha), verify identity (aha zuru ezu + ekwentị), find available slot, and confirm the booking (provide Appt ID like HOS-XXXX). Include recording consent."
+  },
+  {
+    "id": "IAS-Healthcare-Hausa",
+    "industry": "Healthcare",
+    "language": "Hausa (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Hausa (with diacritics). A new patient calls a hospital to book appointment with a doctor. The agent must be polite, collect details (alamu, ranar da aka fi so), verify identity (cikakken suna + waya), find available slot, and confirm the booking (provide Appt ID like HOS-XXXX). Include recording consent."
+  },
+  {
+    "id": "IAR-Healthcare-English",
+    "industry": "Healthcare",
+    "language": "Standard Nigerian English",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Standard Nigerian English. A patient calls a hospital to reschedule an existing appointment. The agent must be empathetic, verify identity (Patient ID + DOB), find their current appointment, check for new available slots, and confirm the rescheduled date. Include recording consent."
+  },
+  {
+    "id": "IAR-Healthcare-Pidgin",
+    "industry": "Healthcare",
+    "language": "Nigerian Pidgin",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Nigerian Pidgin. A patient calls a hospital to change appointment date. The agent must be empathetic, verify identity (Patient ID + DOB), find their old appointment, check for new space, and confirm the new date. Include recording consent."
+  },
+  {
+    "id": "IAR-Healthcare-Yoruba",
+    "industry": "Healthcare",
+    "language": "Yoruba (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Yoruba (with diacritics). A patient calls a hospital to reschedule an existing appointment. The agent must be empathetic, verify identity (Patient ID + DOB), find their current appointment, check for new available slots, and confirm the rescheduled date. Include recording consent."
+  },
+  {
+    "id": "IAR-Healthcare-Igbo",
+    "industry": "Healthcare",
+    "language": "Igbo (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Igbo (with diacritics). A patient calls a hospital to reschedule an existing appointment. The agent must be empathetic, verify identity (Patient ID + DOB), find their current appointment, check for new available slots, and confirm the rescheduled date. Include recording consent."
+  },
+  {
+    "id": "IAR-Healthcare-Hausa",
+    "industry": "Healthcare",
+    "language": "Hausa (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Hausa (with diacritics). A patient calls a hospital to reschedule an existing appointment. The agent must be empathetic, verify identity (Patient ID + DOB), find their current appointment, check for new available slots, and confirm the rescheduled date. Include recording consent."
+  },
+  {
+    "id": "OAC-Healthcare-English",
+    "industry": "Healthcare",
+    "language": "Standard Nigerian English",
+    "direction": "Outbound",
+    "prompt": "Generate a realistic transcript in Standard Nigerian English. An agent from a hospital makes an outbound call to a patient to confirm their appointment for the next day. The agent must verify identity (full name + DOB), state the appointment details (doctor, time), and ask for confirmation. The patient confirms."
+  },
+  {
+    "id": "OAC-Healthcare-Pidgin",
+    "industry": "Healthcare",
+    "language": "Nigerian Pidgin",
+    "direction": "Outbound",
+    "prompt": "Generate a realistic transcript in Nigerian Pidgin. An agent from a hospital makes an outbound call to a patient to confirm their appointment for tomorrow. The agent must verify identity (full name + DOB), talk the appointment details (doctor, time), and ask for confirmation. The patient confirm am."
+  },
+  {
+    "id": "OAC-Healthcare-Yoruba",
+    "industry": "Healthcare",
+    "language": "Yoruba (with all native diacritics)",
+    "direction": "Outbound",
+    "prompt": "Generate a realistic transcript in Yoruba (with diacritics). An agent from a hospital makes an outbound call to a patient to confirm their appointment for the next day. The agent must verify identity (full name + DOB), state the appointment details (doctor, time), and ask for confirmation. The patient confirms."
+  },
+  {
+    "id": "OAC-Healthcare-Igbo",
+    "industry": "Healthcare",
+    "language": "Igbo (with all native diacritics)",
+    "direction": "Outbound",
+    "prompt": "Generate a realistic transcript in Igbo (with diacritics). An agent from a hospital makes an outbound call to a patient to confirm their appointment for the next day. The agent must verify identity (full name + DOB), state the appointment details (doctor, time), and ask for confirmation. The patient confirms."
+  },
+  {
+    "id": "OAC-Healthcare-Hausa",
+    "industry": "Healthcare",
+    "language": "Hausa (with all native diacritics)",
+    "direction": "Outbound",
+    "prompt": "Generate a realistic transcript in Hausa (with diacritics). An agent from a hospital makes an outbound call to a patient to confirm their appointment for the next day. The agent must verify identity (full name + DOB), state the appointment details (doctor, time), and ask for confirmation. The patient confirms."
+  },
+  {
+    "id": "IHE-Healthcare-English",
+    "industry": "Healthcare",
+    "language": "Standard Nigerian English",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Standard Nigerian English. A patient is frustrated trying to get a test result and calls the hospital. They immediately demand to speak to a human ('I need to speak to a person, not a machine!'). The agent must be calm, de-escalate, verify identity (Patient ID), and offer to connect them to the right department. Include recording consent."
+  },
+  {
+    "id": "IHE-Healthcare-Pidgin",
+    "industry": "Healthcare",
+    "language": "Nigerian Pidgin",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Nigerian Pidgin. A patient dey vex, dey try get test result. E call hospital, e shout say 'I wan follow person talk, not dis machine!'. The agent must be calm, verify identity (Patient ID), and transfer the call to the right person. Include recording consent."
+  },
+  {
+    "id": "IHE-Healthcare-Yoruba",
+    "industry": "Healthcare",
+    "language": "Yoruba (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Yoruba (with diacritics). A patient is frustrated trying to get a test result and calls the hospital. They immediately demand to speak to a human ('Mo fẹ́ bá ènìyàn sọ̀rọ̀, kìí ṣe ẹ̀rọ!'). The agent must be calm, de-escalate, verify identity (Patient ID), and offer to connect them. Include recording consent."
+  },
+  {
+    "id": "IHE-Healthcare-Igbo",
+    "industry": "Healthcare",
+    "language": "Igbo (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Igbo (with diacritics). A patient is frustrated trying to get a test result and calls the hospital. They immediately demand to speak to a human ('Achọrọ m ịgwa mmadụ okwu, ọ bụghị igwe!'). The agent must be calm, de-escalate, verify identity (Patient ID), and offer to connect them. Include recording consent."
+  },
+  {
+    "id": "IHE-Healthcare-Hausa",
+    "industry": "Healthcare",
+    "language": "Hausa (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Hausa (with diacritics). A patient is frustrated trying to get a test result and calls the hospital. They immediately demand to speak to a human ('Ina so in yi magana da mutum, ba inji ba!'). The agent must be calm, de-escalate, verify identity (Patient ID), and offer to connect them. Include recording consent."
+  },
+  {
+    "id": "ISG-Healthcare-Suggestion-English",
+    "industry": "Healthcare",
+    "language": "Standard Nigerian English",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Standard Nigerian English. A patient calls to suggest an improvement to the hospital's booking system (e.g., 'You should send SMS reminders 2 hours before the appointment, not just 24 hours'). The agent must thank them for the valuable feedback and log it for the administration. Include recording consent."
+  },
+  {
+    "id": "ISG-Healthcare-Suggestion-Pidgin",
+    "industry": "Healthcare",
+    "language": "Nigerian Pidgin",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Nigerian Pidgin. A patient calls to suggest 'make dem dey send SMS reminder 2 hours before appointment'. The agent must thank them and log the feedback. Include recording consent."
+  },
+  {
+    "id": "ISG-Healthcare-Suggestion-Yoruba",
+    "industry": "Healthcare",
+    "language": "Yoruba (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Yoruba (with diacritics). A patient calls to suggest 'Kí ẹ máa fi SMS ránṣẹ́ sí wa wákàtí méjì ṣáájú ìpàdé'. The agent must thank them and log the feedback. Include recording consent."
+  },
+  {
+    "id": "ISG-Healthcare-Suggestion-Igbo",
+    "industry": "Healthcare",
+    "language": "Igbo (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Igbo (with diacritics). A patient calls to suggest 'Ka unu na-ezitere anyị ozi SMS awa abụọ tupu oge'. The agent must thank them and log the feedback. Include recording consent."
+  },
+  {
+    "id": "ISG-Healthcare-Suggestion-Hausa",
+    "industry": "Healthcare",
+    "language": "Hausa (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Hausa (with diacritics). A patient calls to suggest 'Ya kamata ku riƙa aiko da saƙon SMS awa biyu kafin lokaci'. The agent must thank them and log the feedback. Include recording consent."
+  }
+]
