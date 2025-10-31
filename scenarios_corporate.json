@@ -1,0 +1,177 @@
+[
+  {
+    "id": "IAS-Corporate-English",
+    "industry": "Corporate",
+    "language": "Standard Nigerian English",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Standard Nigerian English. A client calls a corporate organization (e.g., consulting firm) to schedule a consultation. The agent must be professional, understand their needs, verify identity (name + company), find an available slot, and confirm the meeting (provide Ref ID like CON-XXXX). Include recording consent."
+  },
+  {
+    "id": "IAS-Corporate-Pidgin",
+    "industry": "Corporate",
+    "language": "Nigerian Pidgin",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Nigerian Pidgin. A client calls one company to book meeting. The agent must be professional, understand wetin e need, verify identity (name + company), find space for the meeting, and confirm am (provide Ref ID like CON-XXXX). Include recording consent."
+  },
+  {
+    "id": "IAS-Corporate-Yoruba",
+    "industry": "Corporate",
+    "language": "Yoruba (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Yoruba (with diacritics). A client calls a corporate organization to schedule a consultation. The agent must be professional, understand their needs, verify identity (name + company), find an available slot, and confirm the meeting (provide Ref ID like CON-XXXX). Include recording consent."
+  },
+  {
+    "id": "IAS-Corporate-Igbo",
+    "industry": "Corporate",
+    "language": "Igbo (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Igbo (with diacritics). A client calls a corporate organization to schedule a consultation. The agent must be professional, understand their needs, verify identity (name + company), find an available slot, and confirm the meeting (provide Ref ID like CON-XXXX). Include recording consent."
+  },
+  {
+    "id": "IAS-Corporate-Hausa",
+    "industry": "Corporate",
+    "language": "Hausa (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Hausa (with diacritics). A client calls a corporate organization to schedule a consultation. The agent must be professional, understand their needs, verify identity (name + company), find an available slot, and confirm the meeting (provide Ref ID like CON-XXXX). Include recording consent."
+  },
+  {
+    "id": "IAR-Corporate-English",
+    "industry": "Corporate",
+    "language": "Standard Nigerian English",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Standard Nigerian English. A candidate calls an organization to reschedule their job interview. The agent must be polite, verify identity (name + email), find their interview slot, check for new times, and confirm the reschedule. Include recording consent."
+  },
+  {
+    "id": "IAR-Corporate-Pidgin",
+    "industry": "Corporate",
+    "language": "Nigerian Pidgin",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Nigerian Pidgin. A person call one company to change date for interview. The agent must be polite, verify identity (name + email), find the old time, check for new time, and confirm am. Include recording consent."
+  },
+  {
+    "id": "IAR-Corporate-Yoruba",
+    "industry": "Corporate",
+    "language": "Yoruba (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Yoruba (with diacritics). A candidate calls an organization to reschedule their job interview. The agent must be polite, verify identity (name + email), find their interview slot, check for new times, and confirm the reschedule. Include recording consent."
+  },
+  {
+    "id": "IAR-Corporate-Igbo",
+    "industry": "Corporate",
+    "language": "Igbo (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Igbo (with diacritics). A candidate calls an organization to reschedule their job interview. The agent must be polite, verify identity (name + email), find their interview slot, check for new times, and confirm the reschedule. Include recording consent."
+  },
+  {
+    "id": "IAR-Corporate-Hausa",
+    "industry": "Corporate",
+    "language": "Hausa (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Hausa (with diacritics). A candidate calls an organization to reschedule their job interview. The agent must be polite, verify identity (name + email), find their interview slot, check for new times, and confirm the reschedule. Include recording consent."
+  },
+  {
+    "id": "OAC-Corporate-English",
+    "industry": "Corporate",
+    "language": "Standard Nigerian English",
+    "direction": "Outbound",
+    "prompt": "Generate a realistic transcript in Standard Nigerian English. An HR agent from an organization makes an outbound call to a candidate to confirm their job interview time for the next day. The agent must verify identity (full name + email), state the interview details (time, panel), and ask for confirmation. The candidate confirms."
+  },
+  {
+    "id": "OAC-Corporate-Pidgin",
+    "industry": "Corporate",
+    "language": "Nigerian Pidgin",
+    "direction": "Outbound",
+    "prompt": "Generate a realistic transcript in Nigerian Pidgin. An HR agent from a company calls a person to confirm their interview time for tomorrow. The agent must verify identity (full name + email), tell am the time, and ask if e go come. The person confirm am."
+  },
+  {
+    "id": "OAC-Corporate-Yoruba",
+    "industry": "Corporate",
+    "language": "Yoruba (with all native diacritics)",
+    "direction": "Outbound",
+    "prompt": "Generate a realistic transcript in Yoruba (with diacritics). An HR agent from an organization makes an outbound call to a candidate to confirm their job interview time for the next day. The agent must verify identity (full name + email), state the interview details (time, panel), and ask for confirmation. The candidate confirms."
+  },
+  {
+    "id": "OAC-Corporate-Igbo",
+    "industry": "Corporate",
+    "language": "Igbo (with all native diacritics)",
+    "direction": "Outbound",
+    "prompt": "Generate a realistic transcript in Igbo (with diacritics). An HR agent from an organization makes an outbound call to a candidate to confirm their job interview time for the next day. The agent must verify identity (full name + email), state the interview details (time, panel), and ask for confirmation. The candidate confirms."
+  },
+  {
+    "id": "OAC-Corporate-Hausa",
+    "industry": "Corporate",
+    "language": "Hausa (with all native diacritics)",
+    "direction": "Outbound",
+    "prompt": "Generate a realistic transcript in Hausa (with diacritics). An HR agent from an organization makes an outbound call to a candidate to confirm their job interview time for the next day. The agent must verify identity (full name + email), state the interview details (time, panel), and ask for confirmation. The candidate confirms."
+  },
+  {
+    "id": "IHE-Corporate-English",
+    "industry": "Corporate",
+    "language": "Standard Nigerian English",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Standard Nigerian English. An important client calls a company, frustrated with the automated system's inability to solve a complex billing issue. They demand to speak to their human account manager *now*. The agent must be polite, de-escalate, verify identity (name + company), and transfer the call. Include recording consent."
+  },
+  {
+    "id": "IHE-Corporate-Pidgin",
+    "industry": "Corporate",
+    "language": "Nigerian Pidgin",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Nigerian Pidgin. One important client call, e dey vex say the machine no fit solve e billing problem. E want make e follow e account manager talk *now*. The agent must be polite, calm am down, verify identity (name + company), and transfer the call. Include recording consent."
+  },
+  {
+    "id": "IHE-Corporate-Yoruba",
+    "industry": "Corporate",
+    "language": "Yoruba (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Yoruba (with diacritics). An important client calls a company, frustrated with the automated system's inability to solve a complex billing issue. They demand to speak to their human account manager *now*. The agent must be polite, de-escalate, verify identity (name + company), and transfer the call. Include recording consent."
+  },
+  {
+    "id": "IHE-Corporate-Igbo",
+    "industry": "Corporate",
+    "language": "Igbo (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Igbo (with diacritics). An important client calls a company, frustrated with the automated system's inability to solve a complex billing issue. They demand to speak to their human account manager *now*. The agent must be polite, de-escalate, verify identity (name + company), and transfer the call. Include recording consent."
+  },
+  {
+    "id": "IHE-Corporate-Hausa",
+    "industry": "Corporate",
+    "language": "Hausa (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Hausa (with diacritics). An important client calls a company, frustrated with the automated system's inability to solve a complex billing issue. They demand to speak to their human account manager *now*. The agent must be polite, de-escalate, verify identity (name + company), and transfer the call. Include recording consent."
+  },
+  {
+    "id": "ISG-Corporate-Suggestion-English",
+    "industry": "Corporate",
+    "language": "Standard Nigerian English",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Standard Nigerian English. A client calls their account manager to suggest an improvement to their B2B software portal (e.g., 'We'd love a new feature to export this report to PDF'). The agent must be professional, acknowledge the value of the suggestion, and create a formal feature request ticket (Ref ID: FEAT-XXXX). Include recording consent."
+  },
+  {
+    "id": "ISG-Corporate-Suggestion-Pidgin",
+    "industry": "Corporate",
+    "language": "Nigerian Pidgin",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Nigerian Pidgin. A client calls to suggest 'make una add button to export report to PDF' for their software. The agent must be professional, acknowledge the value, and create a feature request ticket (Ref ID: FEAT-XXXX). Include recording consent."
+  },
+  {
+    "id": "ISG-Corporate-Suggestion-Yoruba",
+    "industry": "Corporate",
+    "language": "Yoruba (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Yoruba (with diacritics). A client calls to suggest 'Kí ẹ fi ààyè sílẹ̀ láti gbé ìròyìn jáde gẹ́gẹ́ bí PDF' on their software. The agent must be professional, acknowledge the value, and create a feature request ticket (Ref ID: FEAT-XXXX). Include recording consent."
+  },
+  {
+    "id": "ISG-Corporate-Suggestion-Igbo",
+    "industry": "Corporate",
+    "language": "Igbo (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Igbo (with diacritics). A client calls to suggest 'Ka anyị nwee ike ibupụ akụkọ a dịka PDF' on their software. The agent must be professional, acknowledge the value, and create a feature request ticket (Ref ID: FEAT-XXXX). Include recording consent."
+  },
+  {
+    "id": "ISG-Corporate-Suggestion-Hausa",
+    "industry": "Corporate",
+    "language": "Hausa (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Hausa (with diacritics). A client calls to suggest 'Muna so a ƙara mana fasalin fitar da rahoto zuwa PDF' on their software. The agent must be professional, acknowledge the value, and create a feature request ticket (Ref ID: FEAT-XXXX). Include recording consent."
+  }
+]
