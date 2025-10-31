@@ -1,0 +1,77 @@
+[
+  {
+    "id": "TechnicalSupportIssue-English",
+    "industry": "Telecommunications",
+    "language": "Standard Nigerian English",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Standard Nigerian English. A small business owner calls. Their internet has been down for 2 hours, impacting business. They need troubleshooting help. The agent is methodical, verifies identity (account number), asks specific diagnostic questions ('Are router lights blinking?', 'Tried restarting?'), guides basic steps, and if unresolved, schedules a technician visit (provide appointment ID like TECH-XXXX). Include recording consent."
+  },
+  {
+    "id": "TechnicalSupportIssue-Pidgin",
+    "industry": "Telecommunications",
+    "language": "Nigerian Pidgin",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Nigerian Pidgin. A small business owner calls. Their internet don cut for 2 hours, and e dey affect biz. They need help to fix am. The agent is methodical, verifies identity (account number), asks diagnostic questions ('The light for the router dey blink?', 'You don off am on am?'), guides basic steps, and if unresolved, schedules a technician visit (provide appointment ID like TECH-XXXX). Include recording consent."
+  },
+  {
+    "id": "TechnicalSupportIssue-Yoruba",
+    "industry": "Telecommunications",
+    "language": "Yoruba (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Yoruba (with diacritics). A small business owner calls. Their internet has been down for 2 hours, impacting business. The agent is methodical, verifies identity (account number), asks diagnostic questions ('Ṣe iná lórí ẹ̀rọ router ń tan?', 'Ṣe ẹ ti pa á ẹ sì tan an?'), guides basic steps, and if unresolved, schedules a technician visit (provide appointment ID like TECH-XXXX). Include recording consent."
+  },
+  {
+    "id": "TechnicalSupportIssue-Igbo",
+    "industry": "Telecommunications",
+    "language": "Igbo (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Igbo (with diacritics). A small business owner calls. Their internet has been down for 2 hours, impacting business. The agent is methodical, verifies identity (account number), asks diagnostic questions ('Ìgwe ọkụ router ọ na-enwu?', 'Ị nwara ịgbanyụ ya ma gbanye ya ọzọ?'), guides basic steps, and if unresolved, schedules a technician visit (provide appointment ID like TECH-XXXX). Include recording consent."
+  },
+  {
+    "id": "TechnicalSupportIssue-Hausa",
+    "industry": "Telecommunications",
+    "language": "Hausa (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Hausa (with diacritics). A small business owner calls. Their internet has been down for 2 hours, impacting business. The agent is methodical, verifies identity (account number), asks diagnostic questions ('Shin fitilun kan na'urar router suna kunnawa?', 'Ka gwada kashewa ka kunna?'), guides basic steps, and if unresolved, schedules a technician visit (provide appointment ID like TECH-XXXX). Include recording consent."
+  },
+  {
+    "id": "ServiceActivationQuery-English",
+    "industry": "Telecommunications",
+    "language": "Standard Nigerian English",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Standard Nigerian English. A new customer calls, having bought a SIM but struggling to activate it and buy a data plan. They need clear steps. The agent is friendly, verifies identity (SIM serial number), provides clear activation instructions (e.g., dial *123#), confirms success, guides data plan purchase, and welcomes them. Include recording consent."
+  },
+  {
+    "id": "ServiceActivationQuery-Pidgin",
+    "industry": "Telecommunications",
+    "language": "Nigerian Pidgin",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Nigerian Pidgin. A new customer calls, e don buy SIM but e no sabi how to activate am and buy data. E need clear steps. The agent is friendly, verifies identity (SIM serial number), provides clear activation instructions (e.g., dial *123#), confirms success, guides data plan purchase, and welcomes them. Include recording consent."
+  },
+  {
+    "id": "ServiceActivationQuery-Yoruba",
+    "industry": "Telecommunications",
+    "language": "Yoruba (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Yoruba (with diacritics). A new customer calls, having bought a SIM but struggling to activate it and buy data. They need clear steps. The agent is friendly, verifies identity (SIM serial number), provides clear activation instructions (e.g., dial *123#), confirms success, guides data plan purchase, and welcomes them. Include recording consent."
+  },
+  {
+    "id": "ServiceActivationQuery-Igbo",
+    "industry": "Telecommunications",
+    "language": "Igbo (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Igbo (with diacritics). A new customer calls, having bought a SIM but struggling to activate it and buy data. They need clear steps. The agent is friendly, verifies identity (SIM serial number), provides clear activation instructions (e.g., dial *123#), confirms success, guides data plan purchase, and welcomes them. Include recording consent."
+  },
+  {
+    "id": "ServiceActivationQuery-Hausa",
+    "industry": "Telecommunications",
+    "language": "Hausa (with all native diacritics)",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Hausa (with diacritics). A new customer calls, having bought a SIM but struggling to activate it and buy data. They need clear steps. The agent is friendly, verifies identity (SIM serial number), provides clear activation instructions (e.g., dial *123#), confirms success, guides data plan purchase, and welcomes them. Include recording consent."
+  },
+  {
+    "id": "ISG-Telecom-Suggestion-English",
+    "industry": "Telecommunications",
+    "language": "Standard Nigerian English",
+    "direction": "Inbound",
+    "prompt": "Generate a realistic transcript in Standard Nigerian English. A customer calls to suggest a new type of data bundle
