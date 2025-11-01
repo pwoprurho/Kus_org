@@ -172,30 +172,4 @@ def main():
     print("="*80)
 
 if __name__ == "__main__":
-    main()def main():
-    start_time = time.time()
-    print(f"🚀 Initializing Kusmus Modular Data Factory (Model: {GEMINI_MODEL_NAME}) at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}...")
-    print("="*80)
-
-    # Use imported get_gemini_client
-    client = get_gemini_client()
-    if not client:
-        print("❌ Exiting due to client initialization failure.")
-        return # Exit if client fails during init
-
-    # Generate data
-    records = generate_scenarios(client)
-
-    # Use imported write_json_output
-    write_json_output(records)
-
-    end_time = time.time(); total_duration = end_time - start_time
-    print("\n" + "="*80); print(f"🏁 Kusmus Modular Data Factory finished at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
-    print(f"Total execution time: {total_duration:.2f} seconds.")
-    if records: avg_time = total_duration / len(records) if len(records) > 0 else 0; print(f"Average time per transcript: {avg_time:.2f} seconds.")
-    print("="*80)
-
-if __name__ == "__main__":
     main()
-
-# END OF SCRIPT
