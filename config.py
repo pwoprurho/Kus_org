@@ -43,11 +43,11 @@ if not API_KEY_POOL:
         print("   Please add at least one key as GEMINI_API_KEY_1")
         sys.exit(1)
 
-print(f"🔑 Loaded {len(API_KEY_POOL)} API Key(s) into the pool
+print(f"🔑 Loaded {len(API_KEY_POOL)} API Key(s) into the pool")
 
 # --- Model & Generation Settings ---
-GEMINI_MODEL_NAME = os.getenv("MODEL_NAME", "gemini-1.5-flash") # Using 1.5-flash
-NUM_PER_SCENARIO = int(os.getenv("TRANSCRIPTS_PER_SCENARIO", "10")) 
+GEMINI_MODEL_NAME = os.getenv("MODEL_NAME", "gemini-2.5-flash") # Using 1.5-flash
+NUM_PER_SCENARIO = int(os.getenv("TRANSCRIPTS_PER_SCENARIO", "20")) 
 print(f"🤖 Using Gemini Model: {GEMINI_MODEL_NAME}")
 print(f"🔢 Target: {NUM_PER_SCENARIO} transcripts per scenario.")
 
@@ -55,7 +55,7 @@ print(f"🔢 Target: {NUM_PER_SCENARIO} transcripts per scenario.")
 # --- Load External Specification Files ---
 SYSTEM_PROMPT_FILE = BASE_DIR / "system_prompt.txt"
 # IMPORTANT: Make sure you are using your full scenarios.json file
-SCENARIOS_FILE = BASE_DIR / "scenarios.json" 
+SCENARIOS_FILE = BASE_DIR / "scenario_police.json" 
 
 # Load System Prompt
 SYSTEM_PROMPT = ""

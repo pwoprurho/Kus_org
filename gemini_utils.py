@@ -116,14 +116,14 @@ def analyze_transcript(scenario_prompt: str) -> dict | None: # <-- 'client' argu
     
     retries = 3 # Retries *per key*
     full_prompt = f"{SYSTEM_PROMPT}\n\n---\n\n**NOW, GENERATE FOR THIS SPECIFIC SCENARIO:**\n{scenario_prompt}"
-    generation_config_dict = { "temperature": 0.8, "max_output_tokens": 2048 }
+    generation_config_dict = { "temperature": 0.8, "max_output_tokens": 8200 }
 
     for attempt in range(retries):
         response_text = None
         try:
             if model_client is None: # Safety check
                 print("❌ Client not initialized. Attempting to initialize...")
-                initialize_client()
+                get_gemini_client()
                 if model_client is None: return None # Failed
             
             response = model_client.generate_content(
