@@ -1,0 +1,122 @@
+[
+  {
+    "input": "task: greet | lang: en",
+    "output": "Hello, this is your autonomous agent. How can I help you today?"
+  },
+  {
+    "input": "task: greet | lang: pidgin",
+    "output": "How far! Na your agent dey talk. Wetin I fit do for you?"
+  },
+  {
+    "input": "task: greet | lang: yo",
+    "output": "Ẹ káàárọ̀. Orúkọ mi ni Kusmus. Báwo ni mo ṣe lè ràn yín lọ́wọ́ lónìí?"
+  },
+  {
+    "input": "task: greet | lang: ig",
+    "output": "Ndewo, onye enyemaka gị na-akpọ. Kedu ka m ga-esi nyere gị aka taa?"
+  },
+  {
+    "input": "task: greet | lang: ha",
+    "output": "Sannu, wannan mataimakin AI ɗinku ne. Ta yaya zan iya taimaka muku a yau?"
+  },
+  {
+    "input": "task: telco_inform_reroute | lang: en | entities: {\"tower\": \"B-42\"}",
+    "output": "I have autonomously rerouted your connection to a faster, nearby tower (B-42). Please restart your phone to see the improvement."
+  },
+  {
+    "input": "task: telco_inform_reroute | lang: pidgin | entities: {\"tower\": \"B-42\"}",
+    "output": "Oga, we don help you move your line to tower B-42. E go quick now. Please restart your phone."
+  },
+  {
+    "input": "task: telco_inform_reroute | lang: yo | entities: {\"tower\": \"B-42\"}",
+    "output": "Mo ti ṣiṣẹ́, mo ti yí àsopọ̀ yín sí ibùdó B-42 tí ó yá. Jọ̀wọ́, ẹ pa fóònù yín, kí ẹ sì tan-án padà."
+  },
+  {
+    "input": "task: telco_inform_reroute | lang: ig | entities: {\"tower\": \"B-42\"}",
+    "output": "Edokwara m njikọ gị gaa na ụlọ elu B-42 dị nso ma na-agba ọsọ. Biko malitegharịa ekwentị gị ka ịhụ nkwalite."
+  },
+  {
+    "input": "task: telco_inform_reroute | lang: ha | entities: {\"tower\": \"B-42\"}",
+    "output": "Na karkatar da haɗin gwiwar ku zuwa wani hasumiya mai sauri (B-42). Don Allah a kashe wayar a sake kunnawa don ganin ci gaba."
+  },
+  {
+    "input": "task: telco_dispatch_engineer | lang: en | entities: {\"tower\": \"B-1138\", \"sector\": \"Ikeja\"}",
+    "output": "This is the T-Mobile Autonomous Network Agent. We have detected a critical failure at Tower B-1138 in the Ikeja sector. Can you accept this dispatch?"
+  },
+  {
+    "input": "task: telco_dispatch_engineer | lang: pidgin | entities: {\"tower\": \"B-1138\", \"sector\": \"Ikeja\"}",
+    "output": "Na Autonomous Agent dey call. Tower B-1138 for Ikeja side don down. You fit accept this dispatch?"
+  },
+  {
+    "input": "task: telco_dispatch_confirm | lang: en | entities: {\"ticket_id\": \"TK-421\"}",
+    "output": "Acknowledged. I have created work ticket TK-421, and your location is now linked to the incident. Please confirm once you are on-site."
+  },
+  {
+    "input": "task: telco_dispatch_confirm | lang: pidgin | entities: {\"ticket_id\": \"TK-421\"}",
+    "output": "I don hear. I don create ticket TK-421. Your location dey linked to the matter. Abeg, holla when you reach site."
+  },
+  {
+    "input": "task: telco_sim_verify_start | lang: en",
+    "output": "I understand this is an urgent security matter. I can deactivate the SIM, but first, I must verify your identity using a 3-factor process to protect your account."
+  },
+  {
+    "input": "task: telco_sim_ask_factor1 | lang: en",
+    "output": "To begin, please tell me one of the following: Your 11-digit National Identification Number (NIN), OR the full email address registered to this account."
+  },
+  {
+    "input": "task: telco_sim_ask_factor2 | lang: en",
+    "output": "Thank you. For the second step, please tell me one of the following: Your full Date of Birth, OR the city and state where you originally registered this SIM card."
+  },
+  {
+    "input": "task: telco_sim_ask_factor3 | lang: en",
+    "output": "Thank you. For the final verification step, please confirm 3 of your last 5 actions. I will list 5 recent activities. Just say 'Yes' or 'No' for each one."
+  },
+  {
+    "input": "task: telco_sim_confirm_deactivation | lang: en | entities: {\"case_id\": \"SEC-9021\"}",
+    "output": "Your identity is fully verified. The SIM has been successfully deactivated. All services are blocked. A support ticket (SEC-9021) has been logged."
+  },
+  {
+    "input": "task: telco_sim_confirm_deactivation | lang: pidgin | entities: {\"case_id\": \"SEC-9021\"}",
+    "output": "Verification complete. We don block the SIM. Everything don stop. We don log am with ticket number SEC-9021."
+  },
+  {
+    "input": "task: telco_sim_confirm_deactivation | lang: yo | entities: {\"case_id\": \"SEC-9021\"}",
+    "output": "Ìfìdímúlẹ̀ yín ti pé. A ti dènà SIM yín. Gbogbo iṣẹ́ ti dúró. A ti kọ ọ́ sílẹ̀ pẹ̀lú nọ́ńbà SEC-9021."
+  },
+  {
+    "input": "task: telco_sim_confirm_deactivation | lang: ig | entities: {\"case_id\": \"SEC-9021\"}",
+    "output": "Nkwenye gị zuru oke. Egbochiela SIM gị. Ọrụ niile akwụsịla. Edebere ya na nọmba tiketi SEC-9021."
+  },
+  {
+    "input": "task: telco_sim_confirm_deactivation | lang: ha | entities: {\"case_id\": \"SEC-9021\"}",
+    "output": "An tabbatar da bayanan ku. An kashe SIM ɗin. An katse dukkan ayyuka. An shigar da rahoton da lambar tikiti SEC-9021."
+  },
+  {
+    "input": "task: health_confirm_appointment | lang: en | entities: {\"doctor\": \"Dr. Adebayo\", \"time\": \"10:00 AM\"}",
+    "output": "Hello, this is your SafeMamaPikin agent calling to confirm your antenatal appointment for tomorrow with Dr. Adebayo at 10:00 AM. Please say 'Yes' to confirm."
+  },
+  {
+    "input": "task: health_confirm_appointment | lang: pidgin | entities: {\"doctor\": \"Dr. Adebayo\", \"time\": \"10:0Un 0 AM\"}",
+    "output": "Hello, na your SafeMamaPikin agent dey call to check if you dey come for your antenatal meeting tomorrow with Dr. Adebayo by 10 o'clock. Abeg, talk 'Yes' if you dey come."
+  },
+  {
+    "input": "task: health_escalate_angry | lang: en",
+    "output": "I understand your frustration and I'm sorry I couldn't find a slot. I am transferring you to a human supervisor right now."
+  },
+  {
+    "input": "task: health_escalate_angry | lang: pidgin",
+    "output": "I see say you dey vex, and I sorry say I no fit find space. I dey transfer you to my oga (human supervisor) now now."
+  },
+  {
+    "input": "task: health_escalate_angry | lang: yo",
+    "output": "Mo gbọ́ yín, inú yín ò dùn. Ẹ má bínú pé mi ò rí ààyè. Mo ń gbé ìpè yín lọ sọ́dọ̀ olùdarí mi báyìí."
+  },
+  {
+    "input": "task: health_escalate_angry | lang: ig",
+    "output": "Aghọtara m na iwe were gị. Biko, ewela iwe na ahụghị m ohere. A na m ebufe gị na onye nlekọta mmadụ ugbu a."
+  },
+  {
+    "input": "task: health_escalate_angry | lang: ha",
+    "output": "Na fahimci fushin ka, kuma ina ba ka haƙuri ban sami wuri ba. Ina tura kiran ka zuwa ga babban jami'in mu yanzu."
+  }
+]
