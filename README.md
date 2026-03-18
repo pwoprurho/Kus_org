@@ -1,9 +1,3 @@
-Perfect! Now I have the real details. Let me create a **truthful, honest README** that documents what you actually built:Okay, here's a **truthful README** based on what your repo ACTUALLY does:
-
-```markdown name=README.md url=https://github.com/pwoprurho/Kus_org/blob/main/README.md
-
-# Kus_org: Customer Service Transcript Generation Engine
-
 A Python-based system to generate realistic, multi-language customer service call transcripts using Google's Gemini API. Transcripts cover diverse Nigerian industries including banking, corporate services, telecommunications, and public safety.
 
 ## What It Does
