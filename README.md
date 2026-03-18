@@ -2,7 +2,7 @@ A Python-based system to generate realistic, multi-language customer service cal
 
 ## What It Does
 
-**Kus_org generates synthetic customer service transcripts** in 5 Nigerian languages (English, Pidgin, Yoruba, Igbo, Hausa) across 20+ industry scenarios using Gemini 2.5 Flash.
+**Kus_org generates synthetic customer service transcripts** in 5 Nigerian languages (English, Pidgin, Yoruba, Igbo, Hausa) across 20+ industry for expert analysis before fine-tuning scenarios using Gemini 2.5 Flash.
 
 - **Input**: Scenario definitions (JSON) with detailed prompts
 - **Process**: AI-powered generation with configurable rate limiting
